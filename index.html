@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><![endif]-->
+        <title>Middle Earth</title>
+    	<meta name="keywords" content="" />
+		<meta name="description" content="" />
+        <meta name="viewport" content="width=device-width">
+
+        <!-- Google Web Font Embed -->
+        <link href='http://fonts.googleapis.com/css?family=Raleway:400,600,500,300,700' rel='stylesheet' type='text/css'>
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+
+        <div class="intro-section" style="position: absolute; left: 50%; top: 35%;">
+            <div style="position: relative; left: -50%;">
+                <img src="images/One-Ring.png" id="ring">
+            </div>
+        </div>
+
+        <div id="main-wrapper" style="display:none;">
+            <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 col-lg-offset-5 col-md-offset-5 affix text-center" style="z-index: 1;">
+                <h1 class="site-title">
+                    <a href="#"></a>
+                    <img src="images/btn-menu.png" alt="main menu" id="m-btn" class="pull-right visible-xs visible-sm" >
+                </h1>
+                <ul id="responsive" style="display:none" class="hidden-lg hidden-md"></ul>
+            </div>
+            <div class="menu visible-md visible-lg">
+                <ul id="menu-list">
+                    <li class="active home-menu"><a href="#home" id="home-link"><img src="images/logo.png" alt="Logo" id="logo-image"></a></li>
+                    <li class="1-menu"><a href="#1">Argonath</a></li>
+                    <li class="2-menu"><a href="#2">Azanulbizar</a></li>
+                    <li class="3-menu"><a href="#3">Bree</a></li>
+                    <li class="4-menu"><a href="#4">Caradhras</a></li>
+                    <li class="5-menu"><a href="#5">Dale</a></li>
+                    <li class="6-menu"><a href="#6">Dol Guldur</a></li>
+                    <li class="7-menu"><a href="#7">Edoras</a></li>
+                    <li class="8-menu"><a href="#8">Erebor</a></li>
+                    <li class="9-menu"><a href="#9">Esgaroth</a></li>
+                    <li class="10-menu"><a href="#10">Fangorn</a></li>
+                    <li class="11-menu"><a href="#11">Gondor</a></li>
+                    <li class="12-menu"><a href="#12">Grey Havens</a></li>
+                    <li class="13-menu"><a href="#13">Hornburg</a></li>
+                    <li class="14-menu"><a href="#14">Isengard</a></li>
+                    <li class="15-menu"><a href="#15">Lothlorien</a></li>
+                    <li class="16-menu"><a href="#16">Minas Morgul</a></li>
+                    <li class="17-menu"><a href="#17">Minas Tirith</a></li>
+                    <li class="18-menu"><a href="#18">Mirkwood</a></li>
+                    <li class="19-menu"><a href="#19">Mordor</a></li>
+                    <li class="20-menu"><a href="#20">Moria</a></li>
+                    <li class="21-menu"><a href="#21">Osgiliath</a></li>
+                    <li class="22-menu"><a href="#22">Rivendell</a></li>
+                    <li class="23-menu"><a href="#23">Rohan</a></li>
+                    <li class="24-menu"><a href="#24">The Halls of Thranduil</a></li>
+                    <li class="25-menu"><a href="#25">The Shire</a></li>
+                </ul>
+            </div><!-- /.menu -->
+            <div class="image-section">
+                <div class="image-container">
+                    <img src="images/middle-earth.jpg" id="home-img" class="main-img inactive" alt="Home">
+                    <img src="images/1.jpg" id="1-img" class="inactive" alt="Argonath">
+                    <img src="images/2.jpg" id="2-img" class="inactive" alt="Azanulbizar">
+                    <img src="images/3.jpg" id="3-img" class="inactive" alt="Bree">
+                    <img src="images/4.jpg" id="4-img" class="inactive" alt="Caradhras">
+                    <img src="images/5.jpg" id="5-img" class="inactive" alt="Dale">
+                    <img src="images/6.jpg" id="6-img" class="inactive" alt="Dol Guldur">
+                    <img src="images/7.jpg" id="7-img" class="inactive" alt="Edoras">
+                    <img src="images/8.jpg" id="8-img" class="inactive" alt="Erebor">
+                    <img src="images/9.jpg" id="9-img" class="inactive" alt="Esgaroth">
+                    <img src="images/10.jpg" id="10-img" class="inactive" alt="Fangorn">
+                    <img src="images/11.jpg" id="11-img" class="inactive" alt="Gondor">
+                    <img src="images/12.jpg" id="12-img" class="inactive" alt="Grey Havens">
+                    <img src="images/13.jpg" id="13-img" class="inactive" alt="Hornburg">
+                    <img src="images/14.jpg" id="14-img" class="inactive" alt="Isengard">
+                    <img src="images/15.jpg" id="15-img" class="inactive" alt="Lothlorien">
+                    <img src="images/16.jpg" id="16-img" class="inactive" alt="Minas Morgul">
+                    <img src="images/17.jpg" id="17-img" class="inactive" alt="Minas Tirith">
+                    <img src="images/18.jpg" id="18-img" class="inactive" alt="Mirkwood">
+                    <img src="images/19.jpg" id="19-img" class="inactive" alt="Mordor">
+                    <img src="images/20.jpg" id="20-img" class="inactive" alt="Moria">
+                    <img src="images/21.jpg" id="21-img" class="inactive" alt="Osgiliath">
+                    <img src="images/22.jpg" id="22-img" class="inactive" alt="Rivendell">
+                    <img src="images/23.jpg" id="23-img" class="inactive" alt="Rohan">
+                    <img src="images/24.jpg" id="24-img" class="inactive" alt="The Halls of Thranduil">
+                    <img src="images/25.jpg" id="25-img" class="inactive" alt="The Shire">
+                </div>
+            </div><!-- /.image-section -->
+            <div class="row">
+                <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 col-lg-offset-5 col-md-offset-5 content-wrapper">
+                    <div class="content">
+
+                        <section id="home-text" class="active content-section">
+                            <div class="section-content home-content">
+                                <div class="col-sm-12 col-md-12 col-lg-12">
+                                    <div id="shape">
+                                        <div id="l">
+                                            <p>The history of Middle-earth is divided into three time periods, known as the Years of the Lamps, Years of the Trees and Years of the Sun.</p>
+                                            <p>The Years of the Lamps began shortly after the Valar finished their labours in shaping Arda. The Valar created two lamps to illuminate the world, and the Vala Aulë forged great towers, one in the furthest north, Helcar with the lamp Illuin, and another in the deepest south, Ringol with the lamp Ormal. The Valar lived in the middle, at the island of Almaren. Melkor's destruction of the two Lamps marked the end of the Years of the Lamps.</p>
+                                        </div>
+                                        <div id="logo">
+                                            <h2 class="title">History of Middle-earth</h2>
+                                        </div>
+                                        <div id="r">
+                                            <p>The Silmarils were recovered at a terrible cost, as Beleriand itself was broken and began to sink under the sea. Feanor's last remaining sons, Maedhros and Maglor, were ordered to return to Valinor. They proceeded to steal the Silmarils from the victorious Valar. But, as with Melkor, the Silmarils burned their hands and they then realized they were not meant to possess them and that the oath was null. Each of the brothers met his fate: Maedhros threw himself with the Silmaril into a chasm of fire, and Maglor threw his Silmaril into the sea. Thus the three Silmarils ended in the sky with Eärendil, in the earth, and in the sea respectively.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section><!-- /.home-text -->
+
+                        <section id="1-text" class="inactive">
+                            <h2 class="title">Argonath</h2>
+                            <div class="section-content">
+                                <div class="col-sm-12 col-md-12 col-lg-12">
+                                    <p>The Argonath, also known as The Gates of Argonath or The Pillars of Kings, is a monument comprising two enormous statues carved in the likenesses of Isildur and Anárion, standing upon either side of the River Anduin at the northern approach to Nen Hithoel. It marked the northern border of Gondor, as nearby down south were previous outposts, the Amon Hen and the Amon Lhaw.</p>
+                                    <h3>History</h3>
+                                    <p>It was originally constructed about TA 1340 at the order of Rómendacil II to mark the northern border of Gondor, although the realm was greatly diminished in size by the time the Fellowship of the Ring passed the Argonath on February 25, 3019. Each of the two figures was shown wearing a crown and a helm, with an axe in its right hand and its left hand raised in a gesture of defiance to the enemies of Gondor.</p>
+                               </div>
+                            </div>
+                        </section><!-- /Argonath -->
+
+                        <section id="2-text" class="inactive">
+                            <h2 class="title">Azanulbizar</h2>
+                            <div class="section-content">
+                                <div class="col-sm-12 col-md-12 col-lg-12">
+                                    <p>Azanulbizar also known as Dimrill Dale, or Nanduhirion was the valley below the Great Gates of Moria on the east side of the Misty Mountains.</p>
+                                    <h3>History</h3>
+                                    <p>The valley was very deep and lay between mountain ridges leading up to the peaks of Bundushathûr in the north, and Zirak-Zigil in the south. The great peak Barazinbar which was also called Caradhras towered over the vale in the west. The Pass of Caradhras came down into that valley by the Dimrill Stair, a deep-cloven way that was carved by the Dwarves.</p>
+                                    <p>The Great Gates of Moria came out to the huge steps that were called the threshold of Moria. Less than a mile away from those stairs there was the lake Kheld-zâram and the monument Durin's Stone.</p>
+                                    <p>The river Silverlode which was called Kibil-nâla by the Dwarves, ran through the valley, east, through Lothlórien and into the Anduin. Its origins were in deep well of water not far from Kheld-zâram but as it flowed through the valley it was joined by many smaller mountain-streams and became a swift and powerful river. The old dwarf road lay alongside it.</p>
+                                    <p>In the early days of the valley was considered beautiful and sacred but by the later part of the Third Age it was barren desolate strip of land about five leagues long. A geographical buffer between the orc infested mines of Moria and the Forest of Lothlórien. The final and greatest battle in the War of the Dwarves and Orcs was fought in this vale in the 2799th year of the Third Age, and was called the Battle of Azanulbizar. In that battle the orc king Azog was slain by Dáin Ironfoot, and Thorin son of Thráin earned the name Oakenshield when he picked up an oak log to defend himself at the height of the battle.</p>
+                                    <p>Balin son of Fundin also came to the vale in his attempt to retake Moria and fought some battles in the vale. He was murdered in there when he went alone to look into the waters of Kheld-zâram.</p>
+                                    <p>The Fellowship of the Ring paused there after escaping from Moria, after the loss of Gandalf.</p>
+                                    <h3>Etymology</h3>
+                                    <p>The name 'Azanulbizar' is a Khuzdul word.</p>
+                                </div>
+                            </div>
+                        </section><!-- /Azanulbizar -->
+
+                        <section id="3-text" class="inactive">
+                            <h2 class="title">Bree</h2>
+                            <div class="section-content">
+                                <div class="col-sm-12 col-md-12 col-lg-12">
+                                    <p>Bree was a village, of Men and some hobbits, in Middle-earth located east of the Shire and south of Fornost Erain in Eriador.</p>
+                                    <h3>History</h3>
+                                    <p>Bree was an ancient settlement of men in Eriador by the time of the Third Age of Middle-earth, but after the collapse of the Kingdom of Cardolan, which had claimed it, Bree continued to thrive without any central authority or government for many centuries. Bree had become the most westerly settlement of men in all Middle-earth by the time of the War of the Ring, and became one of only three or four inhabited settlements in all of Eriador. At the time of The Lord of the Rings, Bree-land was the only part of Middle-earth where Men and Hobbits dwelt side by side in peace. Being located on the most important crossroads in the north, on the crossing of the Great East Road and the Greenway, travellers would pass through Bree. The Prancing Pony is equipped with rooms, but the local people do not seem accustomed to many travellers. Hobbits from the Shire would also occasionally visit Bree. The Rangers are also familiar to Bree-folk, though they are suspicious of them. The dwarves dwelling in Blue Mountains (Ered Luin), such as Thorin Oakenshield, would be likely to pass through. Gandalf is a frequent passer-by as well. Thus Bree is the place where, seemingly by accident, Gandalf and Thorin once met. They were both thinking about the same problem: the dragon Smaug at the Lonely Mountain (Erebor). The meeting led to the undertaking of the Quest of Erebor, which resulted in the death of Smaug and the finding of the One Ring by Bilbo Baggins.</p>
+                                    <p>During the War of the Ring, a day's ride east from the village along the road lay The Forsaken Inn, according to Aragorn, although nothing else is known of that place. Directly west of Bree were the Barrow-downs and the Old Forest. Bree was the chief village of Bree-land, a small wooded region near the intersection of the main north-south and east-west routes through Eriador.</p>
+                                    <p>The name Bree means hill, according to Tolkien, referring to the fact that the village of Bree and the surrounding Breelands were centered around a large hill. There were three villages in Bree-land in addition to Bree proper.</p>
+                                    <ul>
+                                        <li>Staddle was populated primarily by hobbits who made a living from light agriculture, including Pipeweed. Staddle was on the south-eastern side of Breehill, sitting south of Combe and Archet. It was the only of the villages (other than Bree itself) visible from the Great East Road.</li>
+                                        <li>Combe was populated primarily by Men, with some hobbits, all of whom made a living from agriculture. Combe was situated on the borders of the Chetwood and on the edge of Bree-hill, between the villages of Archet and Staddle.</li>
+                                        <li>Archet was the furthest north. Located in the Chetwood, it was populated primarily by Men.</li>
+                                    </ul>
+                                    <p>It was not unheard of for Hobbits of the Shire to visit to Bree. This was especially true of the more adventurous Brandybucks, who lived just over a day's journey from the place. People there could recognize Shire-folk from their accent.</p>
+                                    <p>Despite raising some of their own "leaf," the Bree-folk very much enjoyed Shire Pipe-weed from the Southfarthing.</p>
+                                    <p>In The Fellowship of the Ring, Frodo Baggins met Strider (Aragorn) at the largest inn in Bree, The Prancing Pony, owned by Barliman Butterbur. Several of the Ringwraiths attempted to kill the hobbits, but Strider anticipated this, and the hobbits were in a front parlor with him when the Black Riders struck. Frodo and his companions later traveled through Bree on their way home and found things rather worse off there.</p>
+                                    <h3>Etymology</h3>
+                                    <p>The name Bree means "hill" in Brythonic, a Celtic language, referring to the fact that the village of Bree and the surrounding Bree-lands were centered around a large hill. According to Tom Shippey, Tolkien was inspired by the actual town of Brill</p>
+                                </div>
+                            </div>
+                        </section><!-- /Bree -->
+
+                        <section id="4-text" class="inactive">
+                            <h2 class="title">Caradhras</h2>
+                            <div class="section-content">
+                                <div class="col-sm-12 col-md-12 col-lg-12">
+                                    <p>Caradhras, also called the Redhorn, and Baranzibar was one of the mightiest peaks in the Misty Mountains.</p>
+                                    <h3>History</h3>
+                                    <p>On their quest to Mount Doom, the Nine Walkers attempted to cross the Redhorn Pass, lying beneath the slopes of Caradhras, and linking the former Ñoldorin realm of Eregion (Hollin) in the west to the Dimrill Dale and hence the Vale of Anduin in the east. After the fall of Khazad-Dum, this pass was predominantly used by elves travelling between Lothlórien and Rivendell.</p>
+                                    <p>Caradhras was one of the Mountains of Moria, the three mountains under which the great Dwarf palace of Khazad-dûm was built. Caradhras was also the only site in Middle-earth where Mithril could be mined. But mining ever deeper into the roots of the mountain in search of mithril, the dwarf miners also unwittingly awakened the Balrog of Moria.</p>
+                                    <p>Caradhras was called the Cruel by the Dwarves and had long had a bad reputation. The Redhorn Pass (also called the Redhorn Gate) was known to be treacherous and was used by hobbits migrating from Gladden Fields into Eriador. Because of its proximity to the Gladden Fields, it is possible that the River-folk may have passed through the Redhorn Pass. And it was here that Celebrian, the wife of Elrond, was captured by orcs, making it doubly significant to the trilogy.</p>
+                                    <h3>Etymology</h3>
+                                    <p>Caradhras was a Sindarin word that meant "Caradh-" [Red], "ras" [horn]. Caradhras is Baranzibar in Khuzdul, the language of the Dwarves.</p>
+                                </div>
+                            </div>
+                        </section><!-- /Caradhras -->
+
+                        <section id="5-text" class="inactive">
+                            <h2 class="title">Dale</h2>
+                            <div class="section-content">
+                                <div class="col-sm-12 col-md-12 col-lg-12">
+                                    <p>Dale was a city state of Men in north-eastern Rhovanion to the south of the Lonely Mountain in Middle-earth, though it could also be used as the name for the kingdom of Men between the rivers River Running and the Redwater during the Third Age and into the Fourth Age.</p>
+                                    <h3>History</h3>
+                                    <p>In The Hobbit, Dale was a city of Men on the River Running between the Lonely Mountain and the Long Lake. It was ruled by Lord Girion until its destruction in TA 2770 by the Dragon Smaug.</p>
+                                    <p>Situated in the shadow of the Lonely Mountain, it was deserted for many years while the mountain was under the control of Smaug the Dragon. The town was repopulated after the Battle of the Five Armies (featured in The Hobbit) where Bilbo Baggins and his Dwarf companions broke into the dragon's stronghold to claim back the Lonely Mountain. At this point, Smaug in rage flew to Lake-town upon the Long Lake (a nearby town) in an attempt to destroy it. This attempt failed however as Smaug was shot down by Bard, a man of Lake-town.</p>
+                                    <p>With Lake-town in ruins, the men sought a portion of Thorin's treasure in payment for their help in the overthrowing of the dragon and to rebuild their town, but in his pride Thorin refused. The squabble almost resulted in war between the men (and their wood-elf allies) and Thorin and his soon-to-arrive Dwarven kin in the Iron Hills. Just before they were about fight, Gandalf arrived with a warning that the goblins of the Misty Mountains and their Warg allies sought to destroy them to avenge the death of the Goblin King and claim the treasure. This then became the Battle of the Five Armies with the Dwarves, the elves and the Men joining forces against the Orcs. When the battle was over, the dwarves restored their kingdom under the Lonely Mountain and men began to settle once more in Dale, with Bard, the man who slew the dragon, becoming their first king.</p>
+                                    <p>Dale was sacked for a second time during the War of the Ring by invaders from the east. The people of Dale took refuge in the Lonely Mountain with the Dwarves, and it was during the Siege of Erebor that King Dáin II Ironfoot of the Lonely Mountains and King Brand of Dale were slain. However, after the fall of Sauron the siege was broken and Dale rebuilt once more.</p>
+                                    <p>Gandalf was indirectly responsible for the rebuilding of Dale, in that he set in motion the quest that would result in the slaying of Smaug and provided vital aid to it. Some argue that he saw the upcoming war, and did this in a successful attempt to create one more front for Sauron.</p>
+                                </div>
+                            </div>
+                        </section><!-- /Dale -->
+
+                        <section id="6-text" class="inactive">
+                            <h2 class="title">Dol Guldur</h2>
+                            <div class="section-content">
+                                <div class="col-sm-12 col-md-12 col-lg-12">
+                                    <p>Dol Guldur, also known as the Hill of Dark Sorcery, was Sauron's stronghold and base of operations when he worked his sorcery in the wood under the name of The Necromancer. It was located in the south of Mirkwood for over twelve-hundred years in the Third Age. Some believe that before Sauron returned to the fortress a rare species of creature called the Mewlips took up residence in its cellars and underground passages.</p>
+                                    <h3>History</h3>
+                                    <p>Dol Guldur was established by Sauron after his return to Middle-earth sometime after TA 1000. Sauron became known as the Necromancer, and his identity was long kept secret. Dol Guldur was built on the hill known as Amon Lanc (meaning "bald hill"), and had been the capital of Oropher's Silvan realm. The Silvan Elves had fled north to the Black Mountains (later the Mountains of Mirkwood) after Sauron's return from the Downfall of Númenor. Later, after Sauron captured Amon Lanc, Thranduil, son of Oropher, led his people over the Forest River, where they remained. Sauron later remained there for hundreds of years. </p>
+                                    <h4>The Fortress of the Necromancer</h4>
+                                    <p>The White Council long feared the power in Dol Guldur might be Sauron, but Saruman opposed assaulting it, because he knew that the Necromancer was Sauron, and he wanted to wait for him to grow in power until the One Ring revealed itself to him, so Saruman could then take it for himself. But Gandalf later went to Dol Guldur himself and discovered that the Necromancer was indeed Sauron. He then informed the White Council, and Saruman was unable to protest. The White Council attacked Dol Guldur, and Sauron, not yet powerful enough to challenge them, fled to Mordor.</p>
+                                    <p>Sauron continued to increase his power over the next 100 years and search for the Ring.</p>
+                                    <h4>Sauron Discovered</h4>
+                                    <p>In TA 2845 Thráin II, holder of the last of the Seven Rings of the Dwarves, was imprisoned in Dol Guldur's dungeons. In TA 2850 Gandalf again entered Dol Guldur, and found the dying Thráin. Gandalf was entrusted with the map and key to give to Thorin Oakenshield, Thráin's son, although Thráin could not tell Gandalf his own name or the name of his son before he died. Gandalf confirmed Sauron was the master of Dol Guldur at that time.</p>
+                                    <h4>Sauron Flees to Mordor</h4>
+                                    <p>Gandalf returned to the White Council and urged an attack on Dol Guldur, but was overruled by Saruman, who had by then begun searching for the One Ring in that area. In TA 2941 Saruman finally agreed to an attack, which occurred at the same time as the Quest for Erebor. This was carefully planned by Gandalf, so that Sauron and Smaug could not assist each other, as otherwise they surely would have done. The White Council attacked Dol Guldur, and drove out Sauron. Sauron fled to Mordor, his plans nearly ready. In TA 2951 Sauron declared himself openly and sent three Nazgul led by Khamul to reoccupy Dol Guldur.</p>
+                                    <h4>Dol Guldur Destroyed</h4>
+                                    <p>During the War of the Ring, the forces of Dol Guldur were led by Khamûl, the Ringwraith second in command to the Witch-King of Angmar. He and his armies made three assaults upon Lórien and Thranduil's realm in Mirkwood, causing grievous damage to the outlying woodlands, but they were driven back each time by the power of Nenya, Galadriel's Ring of Power, which only Sauron himself could have overcome. The elves, led by Thranduil of Mirkwood and Galadriel of Lorien led an assault on Dol Guldur and Galadriel herself threw down its walls, and laid its pits bare. Absolutely nothing of the fortress that had stood for 2,019 years was left. Renamed back to Amon Lanc, it became the capital of Celeborn's realm of East Lórien in the Fourth Age, while he remained in Middle-earth.</p>
+                                    <h3>Etymology</h3>
+                                    <p>Dol Guldur was a Sindarin word that means "Hill of Dark Sorcery", from dol ("hill") and guldur ("dark sorcery"). It was previously known as Amon Lanc, the "Bald Hill", from amon ("hill") and lanc ("bald").</p>
+                                </div>
+                            </div>
+                        </section><!-- /Dol Guldur -->
+
+                        <section id="7-text" class="inactive">
+                            <h2 class="title">Edoras</h2>
+                            <div class="section-content">
+                                <div class="col-sm-12 col-md-12 col-lg-12">
+                                    <p>Edoras was the capital city of Rohan.</p>
+                                    <h3>History</h3>
+                                    <p>The city of Edoras was built on a hill in a valley of the White Mountains by Rohan's second King, Brego son of Eorl the Young. Before this, Rohan's capital was at Aldburg in the Folde.</p>
+                                    <p>Edoras was built at the end of the valley of Harrowdale, which lay under the great mountain Starkhorn. The river Snowbourn flowed past the city on its way west towards the Entwash. As Rohan consisted of mostly small villages and farmsteads, Edoras was the closest thing Rohan had to a city, and held the Golden Hall of Meduseld. It was here that Aragorn, Gimli, Legolas, and Gandalf met with King Théoden.</p>
+                                </div>
+                            </div>
+                        </section><!-- /Edoras -->
+
+                        <section id="8-text" class="inactive">
+                            <h2 class="title">Erebor</h2>
+                            <div class="section-content">
+                                <div class="col-sm-12 col-md-12 col-lg-12">
+                                    <p>The Lonely Mountain, or Erebor, was a mountain northeast of Rhovanion. It was also the source of the River Running. For many ages of Middle-earth, it had been inhabited by the Dwarves of Durin's Folk up until the later half of the Third Age and then again in its closing years and into the Fourth Age.</p>
+                                    <h2>History</h2>
+                                    <h4>Years of the Trees and First Age</h4>
+                                    <p>The Dwarves of Durin's Folk discovered the mineral wealth of the Lonely Mountain sometime after the awakening of the first Durin. A mining colony was soon set up and a road was laid out to connect the dwarves to their great cities from the Iron Hills and as far west as their realms and possessions in the Blue Mountains.</p>
+                                    <h4>Second and Third Ages</h4>
+                                    <h4>In the Beginning</h4>
+                                    <p>The Dwarves may have lived and mined in the mountain during the Second Age, but it wasn't until the mid-Third Age that the colony had become a firmly established Kingdom of the Dwarves after the fall of the ancient Kingdom of Khazad-dûm due to the awakening of the Balrog known as Durin's Bane in TA 1981. The survivors under Thráin I followed him to the Lonely Mountain and the colony became the ancestral home of the King under the Mountain. By TA 1999, it had become a Dwarven stronghold, where the Dwarves became a numerous and prosperous people. In this time, the Dwarves became very rich and amassed a large amount of gold and treasure which included the jewel known as the Arkenstone. Thrain I used the Arkenstone as a sigil of his rule, and his sons and grandsons under him who were to follow.</p>
+                                    <p>For two-hundred and eleven years the kingdom advanced, expanded, prospered, and endured until Thorin I abandoned it to join his kin in the Grey Mountains, and the Lonely Mountain was abandoned for three-hundred and eighty years. However, the Dwarves of the Grey Mountains began experiencing attacks by the dragons that still lived in those mountains, and became embroiled in a costly war against them, forcing the Dwarves to abandon the Grey Mountains in TA 2590. The Dwarves went their separate ways with Grór and his followers settling in the Iron Hills and Thrór and his followers settling in the Lonely Mountain.</p>
+                                    <h4>Under Siege</h4>
+                                    <p>While Thorin Oakenshield was out hunting one day in TA 2770, Smaug came from the mountains and invaded the Lonely Mountain, hoarding all its wealth for himself. Thráin II and several companions escaped by a secret door. For many years thereafter the dwarves lived in exile in the Blue Mountains until, by a seemingly chance meeting, Gandalf the Grey met Thorin Oakenshield and together they planned to reclaim the mountain. This is told in detail in The Quest of Erebor and described by Tolkien's song, "Far Over the Misty Mountains Cold."</p>
+                                    <h4>The Quest of Erebor</h4>
+                                    <p>In TA 2941, Bilbo Baggins and Thorin's company traveled to the Lonely Mountain to regain the treasure Smaug had stolen. Set into the side of the mountain was a secret door, five feet high and wide enough for three to walk through abreast. Gandalf had managed to obtain the door's key, which fit a key hole which could be found only when the setting sun and the last moon of autumn were in the sky would the light shine upon the keyhole. As told by Tolkien in The Hobbit, it took many days to find the door, and luckily for Thorin and Company they did not arrive on Durin's day so they had plenty of time to enter the mountain.</p>
+                                    <p>Smaug was eventually slain, shot out of the sky by a well-aimed arrow to his only weak spot by Bard the Bowman, a man of Laketown, also known as Esgaroth, who later became king of the Men in the area known as Dale adjoining the Lonely Mountain. Thorin thus reclaimed the mountain, but the Elves of Mirkwood and Men of Lake-town claimed a part of the treasure, which Thorin refused to share. Dáin II Ironfoot came to the aid of his cousin Thorin, and the three Free Peoples almost did battle with one another, but then Orcs attacked and the Dwarves, elves, and men joined ranks together with the eagles against the Orcs, in what became known as the Battle of the Five Armies. During the battle Thorin was mortally injured, and the titles King under the Mountain and King of Durin's Folk passed to Dáin.</p>
+                                    <h4>War of the Ring</h4>
+                                    <p>The demise of Smaug was not to be the last of Lonely Mountain's many troubles. In TA 3019 on the 17th of March, a horde of Easterling soldiers from Rhûn swarmed over the Redwater river, opening up a second front in the northern theater of the War of the Ring. The sheer force of the feared and renowned Easterlings crushed the Men of Dale and routed their forces, which had to rally back to the protection of the Lonely Mountain.</p>
+                                    <p>The Dwarves and Men fought a pitched battle against the invaders, eventually emerging victorious over their opponents. The impregnable gates and walls of the Lonely Mountain, furnished and extensively worked with advanced, complex and intricate Dwarven stonework, defense planning and smith-work, easily withstood the siege equipment of the Easterlings. The Lonely Mountain itself was a key strong-point and gave its defenders great tactical leverage against the attackers, being able to shoot arrows and fling stones down below in reprisal. The many years invested in improving the Lonely Mountain's defenses had paid off, and the defenders outlasted the Easterlings in the siege. The Easterlings then withdrew, suffering disproportionate casualties because of their botched campaign and their difficulty in combating the Dwarven technology, weapons, armor and defenses.</p>
+                                    <h4>Fourth Age</h4>
+                                    <p>Erebor was a minor place for battle during The War of the Ring. The city took a small hit but it was rebuilt during the Fourth Age with the help of men and all of the Dwarves. With the restoration of the Kingdom under the Mountain the area became prosperous again. Dwarves and Men reforged their friendship. Dáin was killed during the War of the Ring, and was succeeded by his son Thorin III Stonehelm who ruled well into the Fourth Age. During this time, Dwarves from the Lonely Mountain helped rebuild cities in Gondor and the fortress of Helm's Deep, and some went to the newly established Dwarven realm of the Glittering Caves where Gimli was lord. Nevertheless, the Kingdom of Erebor apparently continued to prosper throughout the Fourth Age</p>
+                                </div>
+                            </div>
+                        </section><!-- /Erebor -->
+
+                        <section id="9-text" class="inactive">
+                            <h2 class="title">Esgaroth</h2>
+                            <div class="section-content">
+                                <div class="col-sm-12 col-md-12 col-lg-12">
+                                    <p>Lake-town, also known as  Esgaroth or "Esgaroth upon the Long Lake", was a small settlement and community of Men in the northeastern part of mapped Middle-earth. The town was constructed entirely of wood and stands upon wooden pillars sunk into the bed of the Long Lake, south of the Lonely Mountain (Erebor) and east of Mirkwood. It seems that the town's prosperity was built on trade between the Men, Elves and Dwarves of northern Middle-earth.</p>
+                                    <p>It was also known as the final resting place of the Dragon Smaug, whose bones ended up at the bottom of the lake.</p>
+                                    <h3>History</h3>
+                                    <p>Lake-town and Esgaroth may have been separate settlements established on the same site, one predating Smaug's destruction of Dale and the Lonely Mountain and the other built afterwards. Uniquely, of all of the towns, settlements, fortresses, and cities of Middle-earth, Lake-town utilized water as its defense. The Long Lake was also surrounded by towering cliffs and high mountains, all helpful natural barriers that had the potential to aid its defenders in a siege (such as the Easterling invasion of the North in TA 3018). While these defenses slowed and diverted Lake-town's human enemies, it did nothing to prepare its inhabitants against Smaug. The villagers would be harassed on a regular basis by Smaug. Smaug would steal an occasional maiden or just burn down their homes.</p>
+                                    <p>Lake-town was founded sometime during the Third Age and its inhabitants traded extensively with the Elves of Thranduil's Woodland Realm, the Dwarves of the Lonely Mountain and the Iron Hills, their kin in Dale and Dorwinion to the south, and possibly with the Easterlings (in times of peace, of course). The Men of Lake-town traded with Dorwinion (a human realm on the fertile coastal plain on the west shore of the Sea of Rhûn) in a unique way; wine barrels were floated down from Thranduil's caverns in Mirkwood (the Elves were known as copious wine drinkers, as found in the Hobbit) along the Celduin down to Lake-town, where they were redirected to Dorwinion. The wine was then paid for and filled with the necessary goods before being shipped back north, and the cycle of trade resumed once more. These barrels were also quite large, for they could fit a Hobbit or Dwarf (even the extremely fat Bombur).</p>
+                                    <p>It is also where Bilbo and the Dwarves travelled in their adventure to reclaim the Lonely Mountain. In the year TA 2941 of the Third Age the town was attacked by the dragon, but Bard the Bowman, who had indirectly learned of a weakness in Smaug's armor that had first been noticed by Bilbo Baggins, slew the dragon. Smaug, livid with bestial fury, had winged his way to the town in the dead of night and promptly began to immolate the wooden matchwood structures there, materials that burst into flame at the slightest provocation. Its inhabitants realized all too late their predicament and while some, including most of the women and children, got away safely on boats, many perished in the maelstrom of fire that ensued. A brave company of spearmen and archers attempted, in vain, to shoot down the dragon, but were mostly immolated themselves. The town was wrecked by the dragon, but afterwards it was rebuilt using some of the treasure that Smaug had stolen, though the town's Master ran off with some of the Gold. Part of the town's population followed Bard to resettle the Kingdom of Dale.</p>
+                                    <p>As trading people, the Men of Lake-town knew the Common Speech, Westron. However, amongst themselves they spoke an ancient form of it, which was loosely related to but distinct from the also ancient language of the Rohirrim. Tolkien "translated" Westron into English in his text, so to represent its ancient relative that the Rohirrim spoke he substituted Old English. Thus, Tolkien substituted Old Norse for the language of the Men of Esgaroth (in person and place names, etc.) because it is an ancient relative of English that is related to Old English.</p>
+                                    <p>After the town's near destruction following Smaug's rage, its inhabitants rebuilt it with more splendor and grandeur further down the lake. Lake-town is used to refer to the pre-Smaug town upon the Long Lake, while the rebuilt, larger cousin further down the waterway is referred to as Esgaroth. The inhabitants also learned a crucially important, but painful, lesson bought with the blood of loved ones: the town was built to be less susceptible to flame and its military was expanded. These lessons greatly aided it during the War of the Ring.</p>
+                                </div>
+                            </div>
+                        </section><!-- / -->
+
+                        <section id="10-text" class="inactive">
+                            <h2 class="title">Fangorn</h2>
+                            <div class="section-content">
+                                <div class="col-sm-12 col-md-12 col-lg-12">
+                                    <p>Fangorn forest was a forest beneath the southeastern flank of the Misty Mountains.</p>
+                                    <p>Fangorn Forest was known for being the last habitation of the Ents. It was named after the oldest Ent, Fangorn (Treebeard). It is also called Entwood by the Rohirrim.</p>
+                                    <h3>History</h3>
+                                    <p>Fangorn forest was actually just the easternmost survivor of the immense forest that spanned all of Eriador and Calenardhon in the First Age and early Second Age, but which was destroyed by the Númenóreans felling trees to build their mighty ships and Sauron's war on the Elves. Fangorn forest was the oldest part of Treebeard's realm, and to here the Ents retreated.</p>
+                                    <h4>War of the Rings</h4>
+                                    <p>Meriadoc Brandybuck and Peregrin Took pass this forest in the second volume of The Lord of the Rings, The Two Towers. There they meet Fangorn (Treebeard) and persuade him of the danger that Saruman poses to the Ents and their forest. Following the Entmoot, the rest of the Ents finally agree to march against Isengard taking Merry and Pippin with them; they also send Huorns to Helm's Deep to deal with the orcs there. Part of the reason is that Saruman's orcs had been chopping down the trees at the south and west side of the forest, which had angered the Ents.</p>
+                                    <p>Also in The Two Towers, Aragorn, Gimli and Legolas enter the forest to try and find Merry and Pippin, and encounter a white wizard. At first they believe it to be Saruman before realising that it was Gandalf, who they thought had been killed at Khazad-dum.</p>
+                                </div>
+                            </div>
+                        </section><!-- /Esgaroth -->
+
+                        <section id="11-text" class="inactive">
+                            <h2 class="title">Gondor</h2>
+                            <div class="section-content">
+                                <div class="col-sm-12 col-md-12 col-lg-12">
+                                    <p>Gondor was the greatest kingdom of Men in Middle-earth, bordered by Rohan to the north, Harad to the south, the cape of Andrast and the Sea to the west, and Mordor to the east. Its first capital was Osgiliath, moved to Minas Tirith in TA 1640. The city of Minas Tirith remained the capital of Gondor for the rest of the Third Age and into years of the Fourth Age; other major fortresses include Dol Amroth in Belfalas and Osgiliath, which was a city on the Anduin.</p>
+                                    <p>Gondor was founded by the brothers Isildur and Anárion, exiles from Númenor. Gondor was an allied kingdom with Arnor, whose line of kings chieftains came from Isildur, while the Line of the Kings of Gondor was from Anárion. Gondor was at the height of its power in its early years due to the ships and the military might that its armies possessed. However, continued attacks by allies of Sauron, civil war, and a devastating plague caused it to gradually decline over the course of the Third Age, until Sauron's final defeat and the crowning of Aragorn II Elessar.</p>
+                                    <p>In all, there were thirty-one kings of Gondor after Anárion, who was slain before Barad-dûr at the Siege of Barad-dûr.</p>
+                                    <h3>History</h3>
+                                    <p>Like Arnor to the north, Gondor was a Mannish kingdom founded by Anárion, the youngest son of Elendil, after the Downfall of Númenor. It was located to the South of Rohan and to the West of Mordor, on the Bay of Belfalas.</p>
+                                    <h4>Early years</h4>
+                                    Elendil during the Last Alliance
+                                    Elendil, the first King of Gondor
+                                    <p>Before the Downfall of Númenor, Gondor was home to many Númenórean colonists, who either mixed blood with the indigenous Middle Men if they were friendly, or dispersed them into Ras Morthil, Dunland, and Drúadan Forest. Gondor, at a latitude comparable to Venice, was a more fertile region than Arnor to the north, and therefore it already had a larger population before the ships of Elendil's sons arrived, including a well-established city, Pelargir.</p>
+                                    <p>The Faithful or Elendili from Númenor were given a warm reception upon their arrival by those that had already colonized Middle-earth, including a colonial branch of Númenorean royalty at Dor-en-Ernil. The colonists north of Anduin accepted Elendil's claim to kingship over them. South of the Great River, however, the newly exiled Númenoreans did not recognize Elendil's claim.</p>
+                                    <p>Gondor was being founded after Númenor's population had already split between The Faithful and King's Men, and all of the more southern colonies (such as Umbar) remained enemies of The Faithful.</p>
+                                    <p>The newly founded kingdom of Gondor was then part of the Last Alliance of Elves and Men which overthrew Sauron for the first time at the very end of the Second Age, and when Isildur cut the finger of Sauron.</p>
+                                    <h4>Gondor Prospers</h4>
+                                    <p>After the war, Gondor's power and wealth grew steadily (only interrupted by an Easterling invasion in TA 492). Its power would continue to grow into the 9th century Third Age. While the power of Gondor's sister kingdom Arnor peaked during the 9th century, when it broke into various successor states, Gondor's greatest glory was yet to come. Gondor's great cities Minas Anor, Minas Ithil, Osgiliath and Pelargir only grew and the Dunedain of Gondor started to rule over more and more of the lesser people.</p>
+                                    <h4>Gondor's Golden Age</h4>
+                                    Argonath
+                                    The Argonath, monument to the Kings of Gondor.
+                                    <p>Gondor's power reached its Golden Age under the four "Ship-kings":</p>
+                                    <ul>
+                                        <li>Tarannon Falastur r. TA 830 – TA 913. First of the Ship-Kings, died childless</li>
+                                        <li>Eärnil I r. TA 913 – TA 936. Nephew of Tarannon</li>
+                                        <li>Ciryandil r. TA 936 – TA 1015</li>
+                                        <li>Hyarmendacil I (Ciryaher) r. TA 1015 - TA 1149. Last of the Ship-Kings. In the reign of the powerful king, Hyarmendacil I (c. 12th century TA) Gondor reached the height of its power. During Hyarmendacil's reign, Gondor's borders reached their furthest extent. The Kingdom extended east to the Sea of Rhûn, south to the nearest lands of the Haradrim, as far north as Mirkwood, and west towards the borders of Arnor.</li>
+                                    </ul>
+                                    <p>Such was Gondor's wealth during the period that men from other lands would say in envy: "In Gondor precious stones are but pebbles for the children to play with." Gondor would also enjoy several centuries of peace due to its military might.</p>
+                                    TN-The White Tree
+                                    The White Tree of Gondor, originally planted in Minas Tirith by Isildur, was a symbol and coat of arms of Gondor
+                                    <h4>The Decline of Gondor</h4>
+                                    <p>However, after decadence spread under the Kings of Gondor and a long period of decline began (although Gondor experienced several revivals). Three great calamities struck Gondor during the second millennium of the Third Age, which are held to be the chief reasons for its decline: the Kin-strife, the Great Plague, and the invasion of the Wainriders (a tribe of Easterlings).</p>
+                                    <h4>The Kin-strife</h4>
+                                    <p>In the 15th century TA a great civil war named the Kin-strife tore the nation apart. The current King Eldacar was of mixed blood: his mother was of the Northmen. Popular displeasure at this led to the overthrow of King Eldacar by Castamir, the admiral of all of Gondor's naval forces who possessed some royal blood. Eldacar's son was slain, and he fled north. Castamir was afterwards known as Castamir the Usurper. During his ten-year rule, he proved to be very cruel, and because of his love of his old fleet, he lavished attention on the coastal regions while the interior provinces were ignored and left to rot. Eldacar then returned with an army of his Northman kinsmen, and the armies of the Men of Gondor joined them from interior provinces such as Anórien. Osgiliath was devastated during this conflict, its great bridge destroyed and its Palantír lost. Eldacar slew Castamir and reclaimed his throne, but Castamir's sons and their forces were besieged in Pelargir, the great port of Gondor. They eventually retreated to Umbar, where they joined with the Corsairs, and troubled Gondor for many years, until their descendants died out.</p>
+                                    <h4>The Great Plague</h4>
+                                    <p>Later, the Great Plague struck and the White Tree died. This Plague was no localized event: the Plague swept through all of Middle-earth, reaching the successor states of Arnor and the Hobbits of the Shire in the North. King Tarondor found a sapling of the White Tree, and moved the capital from Osgiliath to Minas Anor, the City of Anárion. During this time, Gondor was so depopulated that the fortifications guarding against the re-entry of evil into Mordor were abandoned. It is believed that had the Haradrim or Easterlings been capable of attacking Gondor at this time, it would have fallen. However, the Plague left Gondor's enemies in no better condition than Gondor itself, and neither side was capable of mounting new offensives.</p>
+                                    <h4>The Invasion of the Wainriders</h4>
+                                    <p>Following the sapping of Gondor's strength by the plague, it did recover but then the Wainrider (Easterlings) invaded and devastated Gondor, and the conflict lasted for almost a century. The Wainriders destroyed the Northern Army of Gondor, but survivors linked up with the victorious Southern Army of Gondor which destroyed the Haradrim as they crossed the river Poros, led by a general named Eärnil, and they destroyed the Wainriders as they celebrated their victory, during the Battle of the Camp.</p>
+                                    <h4>The Line of the Kings Fails</h4>
+                                    <h5>Reunification Rejected</h5>
+                                    <p>In TA 1944 Gondor faced a succession crisis when King Ondoher was slain in battle with both his sons. Arvedui, Prince of Arthedain, Ondoher's son-in-law, and the victorious general Eärnil, who was a distant blood-relative of Ondoher, claimed the throne. Arvedui's claim lay mainly in the reintroduction of the old Nùmenorean law of accession, which stated the eldest (remaining) child should succeed the king. If the law was reintroduced, then Arvedui's wife Fíriel, Ondoher's daughter and last remaining child, would become Ruling-Queen, making their descendants Kings of both Arnor and Gondor. Arvedui also tried to put weight behind his claim, as he was Isildur's heir. The council of Gondor recognised that the name of Isildur was held in honour in Gondor, but they dictated that the South-Kingdom must be ruled by an Heir of Anarion. Due to his ancestry from Fíriel and Arvedui, more than a millennium later, Aragorn Elessar put forward his claim as the heir of both Isildur and Anarion.</p>
+                                    <p>Eärnil laid his claim as being a direct descendant of King Telumehtar Umbardacil. His claim was also greatly bolstered by the popularity he had gained as the victorious general who saved Gondor from the Wainriders after winning the southern theatre of the war. Steward Pelendur who was temporarily ruling Gondor as serving as arbiter of succession, intervened in favour of Gondor's victorious general who would rule as Eärnil II.</p>
+                                    <h5>The Last Heir of Anárion</h5>
+                                    <p>During the Battle of Fornost, Eärnil II's heir Eärnur led Gondor's forces to victory over the Witch-king of Angmar, who was actually the Lord of the Nazgûl. Although Eärnur wished to fight him, Eärnur's horse was terrified and fled the battle against his wishes. By the time, he mastered his horse and returned the Witch-king had fled. Glorfindel the Elf then prophesied to him that it was better that he not fight the Lord of the Nazgûl because "never by the hand of man shall he fall".</p>
+                                    <p>Eärnur later ascended to the throne, ruling from Minas Anor (Tower of the Sun). During this time, the Ringwraiths captured Minas Anor's sister city, Minas Ithil (Tower of the Moon), renaming it Minas Morgul (Tower of Sorcery) and taking it as their lair. Minas Anor was renamed Minas Tirith (Tower of Guard) as a result. The Lord of the Nazgûl repeatedly sent messengers to Minas Tirith challenging Eärnur to single combat, taunting him that he had fled out of cowardice from facing him during the Battle of Fornost. Eventually, King Eärnur was overcome by wrath and rode with a small company of knights to Minas Morgul, to accept the challenge. They were never heard from again and so ended the Line of Anárion.</p>
+                                    <h4>The Stewards of Gondor</h4>
+                                    <h5>The Ruling Stewards</h5>
+                                    <p>A long line of hereditary Stewards governed the realm after the disappearance of Eärnur, son of Eärnil, since there was no proof that the last king was dead, and no claimant had enough support to be accepted as his successor. The line of Anárion was held to have failed, and Gondor was not willing to risk to another Kin-strife, which would surely have destroyed it. Whenever there was a new Steward, he would swear an oath to yield rule of Gondor back to the King, in essence only an heir of Isildur, if he should ever return. In Gondor, there was no one who could claim descent from Isildur in direct line, and the northern line of Arnor had effectively disappeared, so this oath was not considered seriously. The line of Stewards ruled as Kings, without having the title. During the War of the Ring, the ruling Steward of Gondor was Denethor II, and his two sons were Boromir and younger Faramir- the latter being the last Ruling Steward of Gondor.</p>
+                                    <h5>Cirion and Eorl</h5>
+                                    <p>In TA 2510 when Steward Cirion ruled over Gondor, the nation faced one of its greatest perils: an Easterling tribe named the Balchoth invaded Gondor with mass force. Gondor's army marched to fight the Balchoth but were cut off from Minas Tirith and pushed back in the direction of the Limlight.</p>
+                                    <p>Messengers were sent to get help from the Éothéod, a tribe, which lived in the northern vales of the Anduin, but nobody expected the messengers to reach their destination. When certain peril came upon Gondor, however, the Éothéod turned the tide of the Battle of the Field of Celebrant. After the victory the Éothéod were awarded the fields of Calenardhon north of the White Mountains from the Gap of Rohan at the southern end of the Hithaeglir, Fangorn forest, rivers Limlight to Anduin, western Emyn Muil, and the Mering Stream, where they established the kingdom of Rohan with Eorl the Young as their first king. A permanent alliance between Gondor and Rohan was established by the oath Eorl swore to Cirion.</p>
+                                    <h4>The War of the Ring and the Restoration</h4>
+                                    <p>Several decades later, Sauron had prepared for the final conquest, and in TA 3018 his forces overran Ithilien. The attack was stopped at Osgiliath with the destruction of the bridge across the Anduin. The following year Minas Tirith faced a larger attack from Mordor, with additional threat from the Corsairs of Umbar. Aragorn summoned the Dead Men of Dunharrow to destroy the forces from Umbar, freeing forces in the south of Gondor to come to the aid of Minas Tirith. Gondor then defeated the army of Mordor with the aid of the Rohirrim in the Battle of the Pelennor Fields, though with heavy losses. The combined army of the West then carried the battle to Sauron at the Battle of the Morannon, a feint to distract Sauron's attention from Frodo Baggins's quest to destroy the One Ring in Mount Doom, thus causing Sauron's destruction and the allies' ultimate victory.</p>
+                                    <p>After the second and final defeat of Sauron, the Kingship was restored, with Aragorn crowned as King Elessar of the Reunited Kingdom of Arnor and Gondor. Faramir, last heir of the Ruling Stewards, retained his office as the Steward to the King, and ruled over Gondor's eastern region of Ithilien; a fair land between the river Anduin and the Ephel Dúath. The oaths between Gondor and Rohan were renewed, and several joint campaigns were fought in the east and south against the remnant of the Easterlings and Haradrim; all former territories of the South-kingdom were won back during the following centuries, and its power and wealth were restored. Several Tolkien's writings state that "of Eldarion son of Elessar it was foretold that he should rule a great realm, and that it should endure for a hundred generations of men after him, that is until a new age brought in again new things; and from him should come the kings of many realms in long days after".
+                                    </p>
+                                    <h4>Song of Gondor</h4>
+                                    <p>Gondor! Gondor, between the Mountains and the Sea!</p>
+
+                                    <p>West Wind blew there; the light upon the Silver Tree</p>
+
+                                    <p>Fell like bright rain in gardens of the Kings of old.</p>
+
+                                    <p>O proud walls! White towers! O wingéd crown and throne of gold!</p>
+
+                                    <p>O Gondor, Gondor! Shall Men behold the Silver Tree,</p>
+
+                                    <p>Or West Wind blow again between the Mountains and the Sea?</p>
+
+                                    <p>Sung by Aragorn on his trip with Legolas and Gimli to find Pippin and Merry.</p>
+
+                                    <h3>Etymology</h3>
+                                    <p>Its name means 'Land of Stone', from Sindarin gond (stone) + (n)dor (land), most likely given to it because of the White Mountains (Ered Nimrais) and other mountain chains in the land (hypothetical Quenya name Ondonórë).</p>
+                                </div>
+                            </div>
+                        </section><!-- /Gondor -->
+
+                        <section id="12-text" class="inactive">
+                            <h2 class="title">Grey Havens</h2>
+                            <div class="section-content">
+                                <div class="col-sm-12 col-md-12 col-lg-12">
+                                    <p>Grey Havens or Mithlond was an Elvish port on the Gulf of Lune in the Elven realm of Lindon in Middle-earth.</p>
+                                    <h3>History</h3>
+                                    <h4>Second Age</h4>
+                                    <p>The Grey Havens was founded at the beginning of the Second Age by the surviving Elves of Beleriand, those who chose to remain on Middle-earth after the wars against Morgoth. It was afterwards used by the Elves to leave Middle-earth for Valinor. The Grey Havens was part of Lindon, the kingdom directly ruled by Gil-galad, last High King of the Ñoldor in Middle-earth. It was also one of the main sources for the Elven fleet of ships that sailed back and forth between Númenor and Eldamar in Aman.</p>
+                                    <p>According to the map of Middle-earth Grey Havens's anchorage is divided into the Harlond (the "south-haven") and the Forlond ("north-haven") which occupy the southern and northern banks, respectively, of the River Lune.</p>
+                                    <p>Because of its cultural and spiritual importance to the Elves, the Grey Havens in time became the primary Elven settlement west of the Misty Mountains prior to the establishment of Eregion and, later, Rivendell. Even after the death of Gil-galad and as the Elves dwindled in numbers by the year, The Grey Havens remained a focal point of the history in the northern part of Middle-earth.</p>
+                                    <h4>Third Age and beyond</h4>
+                                    <p>Círdan the Shipwright was the master of the Havens since its founding; Galdor of the Havens, his messenger, was among the Grey Haven's known inhabitants.</p>
+                                    <p>Aside from Elves, Bilbo Baggins and Frodo Baggins also went to Valinor from the Grey Havens, and a family tradition held that Sam Gamgee (having been himself a Ring-bearer, albeit briefly) did likewise, in the year 1484 of the Shire Reckoning. (Fourth Age 61) The Grey Havens still existed into the Fourth Age under Círdan but its population declined as did the elven presence in Middle-earth. It is unclear just what the Fate of the Elves of Middle-earth was in the early Fourth Age and how long Círdan or his remaining folk dwelled at the Havens and continued to build the great ships that carried the Elves to the Blessed Realm.</p>
+                                </div>
+                            </div>
+                        </section><!-- /Grey Havens -->
+
+                        <section id="13-text" class="inactive">
+                            <h2 class="title">Hornburg</h2>
+                            <div class="section-content">
+                                <div class="col-sm-12 col-md-12 col-lg-12">
+
+                                </div>
+                            </div>
+                        </section><!-- /Hornburg -->
+
+                        <section id="14-text" class="inactive">
+                            <h2 class="title">Isengard</h2>
+                            <div class="section-content">
+                                <div class="col-sm-12 col-md-12 col-lg-12">
+                                    <p>Isengard, also known as "Angrenost" (Iron Fortress) in Sindarin, was one of the three Fortresses of Gondor and held within it one of the realm's Palantiri. However, in the latter half of the Third Age, it came into the possession of Saruman and had become his personal realm until his defeat during the War of the Ring.</p>
+                                    <p>Isengard was built in the Second Age around the tower of Orthanc by the Númenoreans-in-exile in the days of their power in Nan Curunir (valley at the end of the Misty Mountains). Its location was at the northwestern corner of the Southern Kingdom of Gondor, guarding the Fords of Isen from enemy incursions into Calenardhon, and together with the fortress of Helm's Deep to its south protected the Gap of Rohan.</p>
+                                    <p>Isengard consisted of a circular stone-wall surrounding a broad plain, in the center of which was the Tower of Orthanc. Isengard had only one gate, which faced south.</p>
+                                    <p>The river Angren (or Isen) began at Methedras behind Isengard, which also formed its northern wall. The other three sides were guarded by a large wall, known as the Ring of Isengard, which was only breached by the inflow of the river Angren at the northeast through a portcullis, and the gate of Isengard at the south, at both shores of the river.</p>
+                                    <p>Isengard was, at first, a green and pleasant place, with many large trees and grass fields, fed by the river until it was dammed. After Saruman's defeat, however, Treebeard and the rest of the Ents made it a vivid green area again, after destroying the wall, naming it the "Treegarth of Orthanc".</p>
+                                    <h3>History</h3>
+                                    <p>During the early Third Age, the land of Calenardhon became depopulated, and the last warden of Orthanc was recalled to Minas Tirith. Isengard remained guarded by a small company, led by a hereditary captain, much as happened at Aglarond at the time.</p>
+                                    <p>After Calenardhon was given to the Éothéod by Cirion, Steward of Gondor, and became Rohan, Isengard remained part of Gondor, and the company of Aglarond removed to the northern fortress, although the rest of Gondor almost forgot about it. The small guard intermarried much with the Dunlendings, until the place became a Dunlending fortress in all but name. Orthanc, however, remained closed, as the Steward of Gondor still held the keys. Isengard soon came all but deserted.</p>
+                                    <p>During the rule of Rohan's King Déor it turned out that Isengard had become openly hostile to the Rohirrim. Using Isengard as their base, the Dunlendings continued to raid Rohan during Déor's son Gram's rule, until during the rule of Gram's son Helm Hammerhand a Dunlending lord, Freca and his son Wulf nearly managed to destroy the Rohirrim. The Rohirrim eventually won, taking Isengard, and guarding it for Gondor.</p>
+                                    <p>During the time of the Steward of Gondor Beren, Saruman the White suddenly reappeared from the East, and he offered to guard Isengard. Beren gladly gave him the keys to Orthanc, and Saruman settled there. After him the valley became known as Nan Curunír, or "Wizard's Vale".</p>
+                                    <p>During the War of the Ring, Isengard was Saruman's base of operations against the Rohirrim, and he defiled the valley, cutting down its trees and grass and replacing them with stone and machinery. He dammed and diverted the Angren, possibly for use as hydropower. Isengard's valley was honeycombed with deep pits, used for breeding Uruk-hai and housing orcs, men and wolves and smithying weapons. Isengard became home to countless Orcs and Dunlendings -- a sizable private army. Eventually, an army of Ents and Huorns led by Treebeard of Fangorn attacked Isengard, wrecking all of Saruman's industries, although they could not force entry to the Tower of Orthanc.</p>
+                                    <p>The Hobbits Meriadoc Brandybuck and Peregrin Took as the new "doorwardens" received Théoden King of Rohan, Aragorn, and Gandalf at the gates. Saruman was confronted but refused to beg for pardon, and he was released into Treebeard's guard together with his servant Gríma Wormtongue. Saruman abandoned Isengard after Sauron's defeat, playing off Treebeard's hatred of caging any living thing in order to manipulate him into letting him leave. It was planned by Sauron that Isengard would be given to his loyal ambassador, the Mouth of Sauron, after Saruman's demise.  </p>
+                                    <h4>After the War of the Ring</h4>
+                                    <p>Early in the Fourth Age, Isengard was restored, and Treebeard replanted many trees. Orthanc again became a tower of the Reunited Kingdom of Aragorn King Elessar.</p>
+                                    <p>Under the Ent dominion, the ringwall was torn down and the Ents planted the Watchwood there and renamed the new forest the Treegarth of Orthanc. Saruman's pits and caverns were filled, and the land was healed. The Valley was now filled with trees and a small lake was constructed near Orthanc. The valley was given to the ents by Aragorn, to do with it as they wished, granted that they keep watch upon Orthanc and preventing anyone without permission to enter it.</p>
+                                </div>
+                            </div>
+                        </section><!-- /Isengard -->
+
+                        <section id="15-text" class="inactive">
+                            <h2 class="title">Lothlorien</h2>
+                            <div class="section-content">
+                                <div class="col-sm-12 col-md-12 col-lg-12">
+                                    <p>Lothlórien was a forest located in Middle-earth, next to the lower Misty Mountains. It was first settled by Nandorin elves, but later enriched by Ñoldor and Sindar, under Celeborn of Doriath and Galadriel, daughter of Finarfin.</p>
+                                    <p>Two places in Arda were known as Lórien, and both were exceptionally beautiful. The first was the gardens of the Vala Irmo in Valinor (Irmo was usually called Lórien as well). The second was Lothlórien, where Galadriel dwelled during the events of The Lord of the Rings.</p>
+                                    <p>Galadriel's magic, later revealed as the power of her Ring Nenya, enriched the land and made it a magic forest into which evil could not enter without difficulty. The only way that Lothlórien could have been conquered by the armies of Mordor is if Sauron had come there himself wielding the One Ring, for against that power the Elves could not triumph.</p>
+                                    <p>Although Sauron's recovery of the One Ring was the great threat to Lórien, if Frodo were to destroy the Ring the power of Nenya would fade and Lothlórien would cease to be a magical realm, but that was preferable to the enslavement of the Elves that would result if Sauron were victorious.</p>
+                                    <p>Lórien was located on the River Celebrant, southeast of Khazad-dûm, and was the only place where the golden Mallorn tree grew in Middle-earth.[note 1] The chief city of Lothlórien was Caras Galadhon, also known as the Heart of Elfdom, where Galadriel and Celeborn dwelt.</p>
+                                    <h3>History</h3>
+                                    <p>Lórien, like Thranduil's Kingdom of northern Mirkwood, was settled by Silvan Elves of Nandorin descent some time during the First Age and was called Lindórinand (Vale of the Land of the Singers). By the Second Age, Sindarin Elves had enriched its population, and they were ruled by a Sindarin lord, Amdír. The last Sindarin Lord of Lórien was Amroth, who went to Edhellond near Dol Amroth in south Gondor in search of Nimrodel, and was lost at sea. After his time the Silvan Elves of Lórien long had no lords, until Galadriel and her husband Celeborn travelled there from Eregion (Hollin). They brought with them a gift given to them by Gil-galad, given to him by the seventh High King of Numenor, Tar-Aldarion: seeds of the great Mallorn trees whose boughs were filled with leaves of gold and whose wood was silver. He gave them to Galadriel and Celeborn because the trees wouldn't grow in his own land. The Mallorn trees grew well in Lindórinand, however, and when enough of them had grown that land became known as Laurelindórenan (Vale of Singing Gold), or more often just Lórinand (Valley of Gold), or Lothlórien (Lórien of the Blossom). It was also known as the Golden Wood.</p>
+                                    <h4>Third Age</h4>
+                                    <p>The Golden Wood was relatively close to Mirkwood and Dol Guldur. Around the time Sauron's forces were attacking Minas Tirith, Dol Guldur sent forces to assault Lothlórien and when Gondor fought at the Battle of the Black Gate. There were three assaults in total, but though the outer woods were ravaged, the lands inhabited by the Elves were protected thanks to both Elven skill and Galadriel's power (Mordor could not have destroyed Lórien unless Sauron himself had arrived). After the three assaults failed, Lórien eventually sent its own forces to cast down Dol Guldur. This attack proved successful and Galadriel cast the walls down.</p>
+                                    <h4>After the War</h4>
+                                    <p>After Galadriel left for Valinor, the Elves of Lórien were ruled by their lord Celeborn alone, and the realm was expanded to include a part of southern Mirkwood, but it appears to have slowly been depopulated during the Fourth Age until all Elves were gone. In "The Tale of Aragorn and Arwen," the timeless Elven kingdom is depicted as being wholly abandoned by the time of King Elessar's passing. [note 2] Even after the assaults on Lórien by Sauron's forces during the War of the Ring, there must have been several thousand Silvan Elves remaining in the land.</p>
+                                    <p>After the death of her husband Aragorn II Elessar in FO 120, Arwen retreated there to Cerin Amroth in FO 121 where she gave up her life and was buried there.</p>
+                                    <h3>Etymology and Names</h3>
+                                    <p>This forest, originally known by its Silvan names Laurelindórinan (Land of the Valley of Singing Gold) and Lórinand (Golden Valley), was renamed Lothlórien (Lórien of the Blossom) in memory of the Lórien the Ñoldor left behind; but the name was often shortened to Lórien ("Land of Gold", although it carried within it also the meaning of "dream"). Treebeard referred to the word Lothlórien as "Dreamflower". Other names given to the land include the Rohirric name Dwimordene (from dwimor "phantom", an allusion to the perceived magic of the Elves), and the Westron name The Golden Wood.</p>
+                                </div>
+                            </div>
+                        </section><!-- / -->
+
+                        <section id="16-text" class="inactive">
+                            <h2 class="title">Minas Morgul</h2>
+                            <div class="section-content">
+                                <div class="col-sm-12 col-md-12 col-lg-12">
+                                    <p>Minas Morgul was a City/Fortress of Mordor, originally called Minas Ithil. As the easternmost fortification in the kingdom of Gondor, and a sister city to Minas Anor, Minas Ithil safeguarded the eastern borders of the Kingdom of Gondor and the capital Osgiliath from the forces of Mordor during the early part of the Third Age.</p>
+                                    <p>Minas Morgul was located in an upland valley at the feet of the Mountains of Shadow. It overlooked the region of Ithilien and controlled the only easily accessible pass through the mountains that led into Mordor, the pass of Cirith Ungol</p>
+                                    <h3>History</h3>
+                                    <h4>Minas Ithil</h4>
+                                    <p>Minas Ithil was founded in the Second Age by the Númenorean, Isildur, son of Elendil, as a fortress city to defend Gondor from Sauron in Mordor. Isildur made his home in Minas Ithil, while Isildur's brother Anarion dwelled across the Anduin in Minas Anor. In front of his house, Isildur planted a sapling of the White Tree, which he had rescued from the Downfall of Numenor, and in the tower was kept one of the Palantíri called the Ithil-stone.</p>
+                                    <p>In its heyday Minas Ithil was described as a beautiful sight, with moonlight filling its inner courts with silver light and causing its walls to gleam silver and white. It was a walled city of white marble built on a high shelf of rock. Within the walls, there were white houses and a tall tower. The walls and the tower had many windows, and the top of the tower revolved slowly back and forth. A road ran from Osgiliath on the Anduin through Ithilien to the city and crossed the Mountains of Shadow into Mordor via the pass.</p>
+                                    <p>In SA 3428, Sauron sent a huge army to Minas Ithil and after about a year of siege, it was captured and the White Tree was burned(Isildur recovered a sapling and planted it in Minas Anor in TA 2). However, in SA 3430, Anarion recaptured the city, preventing Minas Ithil from being turned into an early Minas Morgul.</p>
+                                    <p>After Sauron was defeated in the War of the Last Alliance in SA 3441, a watch was kept from Minas Ithil to prevent the return of evil to Mordor. However, the Great Plague of TA 1636 devastated the population of the city and in the following years its guard upon Mordor slackened.</p>
+                                    <p>The Nazgûl, led by the Witch-king of Angmar, the chief Nazgûl and most fearsome of Sauron's minions, returned to Mordor in 1980 to prepare for Sauron's return. Meanwhile, Gondor had been devastated by many attacks of Mordor's allies, the Wainriders, Variags, and Haradrim, who gained two devastating victories, killed two kings, and conquered almost all the provinces east of the Anduin. Soon Mordor started to attack and conquer parts of Gondor. In TA 2000, the forces of the nine Nazgûl laid siege to Minas Ithil. In TA 2002 after a long siege, the city fell and was transformed into a bastion of evil. As a result, it came to be called Minas Morgul, which in Sindarin means Tower of Dark Sorcery. Minas Morgul stood upon the Morgulduin, a polluted tributary of the Anduin.</p>
+                                    <p>The Palantír's (Ithil-stone's) fate was unknown. Many Men of Gondor believed the guards of the city had destroyed it, but by the nature of the Palantíri, this was impossible. Others believed that it was taken to Barad-dûr, which became known as the real seat of power in Mordor.</p>
+                                    <h4>Minas Morgul</h4>
+                                    <p>Terror and war were directed at Gondor from Minas Morgul until Ithilien was deserted. During the War of the Ring, the army that attacked Osgiliath and undertook the Siege of Gondor came from Minas Morgul.</p>
+                                    <p>In fashion Minas Morgul seems to have been much like Minas Tirith, only corrupted and hellish. The topmost course of the tower revolved slowly, and the walls were illuminated by a pale luminous glow. Under a white bridge flowed the foulest river in Middle-Earth, the Morgulduin.</p>
+                                    <p>The city had a strange watchfulness about it, and intruders to Morgul Vale were always noted. Most who approached the city could not stand to set eyes on it, and felt that they were being watched.</p>
+                                    <p>After the War of the Ring, King Elessar counseled Faramir to make his abode in the Emyn Arnen southeast of Minas Tirith, in Ithilien, and decreed that Minas Ithil in the Morgul Vale, despoiled by its years as Minas Morgul, be completely destroyed, for although it might in time come to be made clean, no man might dwell there for many long years.[2]</p>
+                                    <h3>Etymology</h3>
+                                    <p>The name Minas Morgul is comprised of the Sindarin terms minas("tower") and morgul ("sorcery"). Morgul can also mean "black sorcery", from mor ("black").</p>
+                                    <p>Its previous name Minas Ithil means "Tower of the Moon", from ithil ("moon").</p>
+                                </div>
+                            </div>
+                        </section><!-- /Lothlorien -->
+
+                        <section id="17-text" class="inactive">
+                            <h2 class="title">Minas Tirith</h2>
+                            <div class="section-content">
+                                <div class="col-sm-12 col-md-12 col-lg-12">
+                                    <p>Minas Tirith [Sindarin; minas (tower) + tirith (watch)] (IPA: tiriθ) was the capital of Gondor in the Third Age and the Fourth Age of Middle-earth. Originally known as Minas Anor, the "Tower of the Sun", it replaced the city Osgiliath as the new capital and stockade of Gondor.</p>
+                                    <p>When the Enemy began to take shape again, Minas Anor was renamed Minas Tirith, the "Tower of Guard." The city was also called The White City, as the courtyard in the front of the city's Citadel contained the White Tree, and was also known as the City of Kings because of its connection with the kings and stewards of Gondor (who ruled the kingdom of Gondor from the Citadel of the city). Many important events took place in and in front of the city, such as the Battle of the Pelennor Fields, the healing of Meriadoc Brandybuck and Éowyn by Aragorn after that battle, and the coronation of Aragorn II Elessar outside the city gates.</p>
+                                    <h3>History</h3>
+                                    <p>Minas Tirith (as Minas Anor) was built in SA 3320 by Anárion, brother of Isildur, second son of Elendil, and a High King of Arnor. King Ostoher rebuilt the city in TA 420, and, gradually, it became more important than Osgiliath, the original capital, which in later years fell into ruin. King Tarondor finally moved the King's House to the city in TA 1640, thereby making it the official capital of the kingdom of Gondor. In the year TA 2002, the White City's companion tower Minas Ithil (the "Tower of the Moon") on the borders of Mordor was captured by the Ringwraiths and renamed Minas Morgul (the "Tower of Sorcery"). Minas Anor was then renamed Minas Tirith, meaning the "Tower of Guard", to indicate that, since the fall of Minas Ithil, Minas Tirith was the only thing that defended Gondor and all the other lands around and behind it against the horrifying evil from Mordor.</p>
+                                    <p>During the War of the Ring (Third Age 3018 - 3019), Minas Tirith is said to "have less than half of the population which could have dwelt at ease" in it. The city was subsequently falling into ruin, and, combined with the growing power of the Dark Lord not too far to the east, resulted in the low population of the city. It appeared to Aragorn a city that had lost its luster, which had resulted in many things once beautiful that now were old and crumbling.</p>
+                                    <p>In The Return of the King, Minas Tirith was besieged by the armies of Mordor, including cohorts of Easterlings and war bands of the Haradrim, under the Great Darkness generated by Mordor's foul geothermic vents, or by Sauron's power. The Battle of the Pelennor Fields took place on 15 March, 3019 in the fields surrounding the city. It was one of the most horrific battles of the whole War of the Ring. There, on that field, both the king of Rohan, Theoden, and the Witch-king of Angmar were slain. It was also there that King Elessar (Aragorn) arrived at the hour of Minas Tirith's need and therefore saved the city. Despite their heavy losses, the battle was finally won by the forces of good. After the battle, the stench of death was heavy in Minas Tirith's air, and the Pelennor Fields lay strewn with bodies.</p>
+                                    <p>On 1 May 3019, the crowning of King Elessar took place on the plain outside Minas Tirith. After his coronation, he entered the city as the King of Gondor, as he was destined to become from the start of his lifetime. With his coronation, King Elessar refounded the line of the Kings of Gondor. His coronation also signaled the passing of the torch of dominion of Middle-earth from the elves to men.</p>
+                                    <p>Minas Tirith was repaired by its new king (who grew plants inside of its walls to add to its luster and beauty) and by the Dwarves of Aglarond, who built a new gate for the city (made of mithril and steel) and altogether fixed the layout of the city as well. The city is known to have stood firm and strong well into the Fourth Age because of these two renovations.</p>
+                                </div>
+                            </div>
+                        </section><!-- /Minas Tirith -->
+
+                        <section id="18-text" class="inactive">
+                            <h2 class="title">Mirkwood</h2>
+                            <div class="section-content">
+                                <div class="col-sm-12 col-md-12 col-lg-12">
+                                    <p>Mirkwood was a great forest in Middle-earth in the eastern region of Rhovanion between the Grey Mountains (Ered Mithrin) and Gondor. It was also known as Greenwood the Great or Taur-e-Ndaedelos, and was later re-named Eryn Lasgalen.</p>
+                                    <h3>History</h3>
+                                    <p>Mirkwood dates back to the earliest days of Middle-earth. The Elves passed through it on their Great Journey from Cuiviénen into the Far West - it was where they made their first long stop before continuing onward. Thereafter, Mirkwood was the dwelling of the Wood-elves (the Nandor, elves descending from the wandering Teleri elf Lenwë) for many thousands of years. The Sindarin elf Oropher, the grandfather of Legolas, established the Woodland Realm proper, and it become the primary settlement of the elves from the Second Age onward. It was around this time that Men, possibly ancestors of the Northmen, began making permanent settlements in and around the forest. When Oropher was killed in the War of the Last Alliance, the kingship passed to his son Thranduil.</p>
+                                    <p>Mirkwood had been called Greenwood the Great until around the year TA 1050 of the Years of the Sun, when the shadow of the Dark Lord Sauron fell upon it, and men began to call it Mirkwood, or Taur-nu-Fuin and Taur-e-Ndaedelos in the Sindarin tongue. From then on, Mirkwood became a haunted place inhabited by many dark and savage things. Sauron established himself at the hill-fortress of Dol Guldur on Amon Lanc within its southern region, and drove Thranduil and his people ever northward, so that by the end of the Third Age they were a diminished and wary people, who had entrenched themselves within the Mountains of Mirkwood. The Old Forest Road (also called the Old Dwarf Road) crossed the forest east to west, but because it was so close to Dol Guldur the road was mostly unusable. The elves then made a path farther to the north, which ended somewhere in the marshes south of the Long Lake of Esgaroth or Laketown.</p>
+                                    <h4>Quest to Erebor</h4>
+                                    <p>Bilbo Baggins, along with Thorin Oakenshield and his band of Dwarves, ventured into Mirkwood during their quest to regain the Lonely Mountain or Erebor from the dragon Smaug. There, the dwarf Bombur fell into the Enchanted river. Later, they came across many great Giant Spiders. Shortly after the Dwarves' escape, they were captured by the elves. After or during these events the White Council attacked Dol Guldur, and Sauron fled to Mordor, his influence in Mirkwood diminished for a while. Years later Gollum, after his release from Mordor, was captured by Aragorn and brought a prisoner to Thranduil's halls. He escaped during an orc raid, and fled south to Moria.</p>
+                                    <p>After Sauron was reduced to a powerless spirit of malice at the conclusion of the Third Age, the darkness was lifted from Mirkwood, and it became known again by its old name of Eryn Lasgalen (Sindarin, wood of green leaves), or Greenwood.</p>
+                                </div>
+                            </div>
+                        </section><!-- /Mirkwood -->
+
+                        <section id="19-text" class="inactive">
+                            <h2 class="title">Mordor</h2>
+                            <div class="section-content">
+                                <div class="col-sm-12 col-md-12 col-lg-12">
+                                    <p>Mordor was a black volcanic plain in the southeast of Middle-earth to the East of Gondor, Ithilien and the great river Anduin. Mordor was chosen to be Sauron's fortress because of the mountain ranges surrounding it on three sides, creating a natural fortress against his enemies.</p>
+                                    <h3>History</h3>
+                                    <h4>Early History</h4>
+                                    <p>Sauron settled in Mordor 1,000 years after the end of the First Age, and it remained the pivot of his evil contemplations for the whole of the Second and Third Ages of Middle-earth. In the north-western corner of this land stood Mount Doom, where Sauron had forged the One Ring. Near Orodruin stood Sauron's stronghold Barad-dûr. After this time, Sauron was known as the Dark Lord of Mordor.</p>
+                                    <p>For two and a half thousand years, Sauron ruled Mordor uninterruptedly. Having wrought the Ring, it was from there that he launched the attack upon the Elves of Eregion. He was repelled by the Men of Númenor. He fought against the men again, almost a thousand years later; that time, he was captured by the Númenóreans and brought to their island kingdom, eventually causing its destruction (see Akallabêth). Immediately after Númenor's destruction, Sauron returned to Mordor as a spirit and resumed his rule.</p>
+                                    <h4>The Last Alliance and Third Age</h4>
+                                    <p>Sauron's rule was interrupted yet again when his efforts to overthrow the surviving Men and Elves failed, and they fought their way back to their foe's domain. After several years of siege, forces of the Last Alliance of Elves and Men came into Mordor. Sauron was defeated in a final battle on the slopes of Mount Doom. For about a thousand years, Mordor was guarded by Gondor in order to prevent any evil forces from breaking out. Minas Ithil , The Towers of the Teeth and the Tower of Cirith Ungol were built by Gondor to watch two of the major entry points to the dark land.</p>
+                                    <p>However, Sauron eventually used the Wainriders to distract and weaken Gondor, and the Nazgûl, after having destroyed Arnor reclaimed it and started to rebuild its might. Minas Ithil was conquered by the Nine Ringwraiths and the Gondor fortresses occupied by evil creatures. By the time Sauron returned into Mordor after his false defeat in Dol Guldur (in the events that took place at the time of Bilbo Baggins's quest), Mordor was too strong to be captured by any military might that was available in Middle-earth at the end of the Third Age. In the north of Mordor during the War of the Ring were the great garrisons and forges of war, while surrounding the bitter inland Sea of Núrnen to the south lay the vast fields tended for the provision of the armies by hordes of slaves brought in from lands to the east and south.</p>
+                                    <h4>War of the Ring</h4>
+                                    <p>During the War of the Ring, Sauron gathered all his forces to Mordor. After the Battle of the Pelennor Fields, a Host of the West went to the Black Gate. Sauron sent his army to destroy the Men of Gondor and Rohan, but then Frodo Baggins destroyed the One Ring and Mordor fell. The Dark Tower or Barad-dûr, the Black Gate and the Towers of Teeth collapsed to ruin. Mount Doom exploded and both Sauron and his Ringwraiths were apparently destroyed. The shadows fled and the bright light came and filled the Nameless Land.</p>
+                                    <p>After the ultimate defeat of Sauron, Mordor became mostly empty again as the Orcs inside it fled or were killed. Crippled by thousands of years of abuse and neglect, but capable of sustaining life, the land of Mordor was given to the defeated foes of Gondor as a consolation, as well as to the freed slaves of Nurn who were formerly forced to farm there to feed the armies of Mordor.</p>
+                                </div>
+                            </div>
+                        </section><!-- /Mordor -->
+
+                        <section id="20-text" class="inactive">
+                            <h2 class="title">Moria</h2>
+                            <div class="section-content">
+                                <div class="col-sm-12 col-md-12 col-lg-12">
+                                    <p>Moria (or Khazad-dûm) was the Dwarven underground city beneath the Misty Mountains. For thousands of years, a thriving Dwarvish community had delved deep below the mountains seeking to build their lives there, and to find sources of treasure, gold and Mithril. The city was abandoned during the Third Age after excavations accidentally released a balrog.
+                                    <p>After the events in The Hobbit, one of the dwarven company, Balin, Oin, and Ori led an expedition to reclaim and recolonize the city. The group encountered significant Orc resistance still occupying the mines.</p>
+                                    <h3>History</h3>
+                                    <h4>Foundation</h4>
+                                    <p>Moria, or as it was known in the ancient days Khazad-dûm, was founded by Durin the Deathless. Durin awoke at Mount Gundabad, in the Misty Mountains, in the period of time known as the Years of the Trees, and came upon a shimmering lake beneath the mountain Celebdil with a crown of stars reflected in its waters. He named it Kheled-zaram as it was known in Dwarvish tongue, the Mirrormere. Thereafter it remained a revered place amongst the Dwarves. In the caves above the lake, Durin's folk built Moria.</p>
+                                    <h4>First AgeEdit</h4>
+                                    <p>Durin thus became King Durin l of Khazad-dum, the first of the Seven Fathers of the Dwarves.</p>
+                                    Moria gate
+                                    Gates of Moria, and translation of the Writing
+                                    <p>Many centuries later, the Dwarves continued to name their kings after him, as they believed that all other rulers of Moria were re-incarnations of Durin who wished to live amongst his people once again. Millennia passed and the caverns of Khazad-dûm became ever more famous in Middle-earth and many kings were set upon the throne of Durin the Deathless. The gates were kept open, as there was no shadow on the world at that point, and the Dwarves were on very friendly terms with the Elves.</p>
+                                    <h4>Second AgeEdit</h4>
+                                    <p>In SA 40 after the fall of Beleriand in the War of Wrath and the Dwarves of Nogrod had left Middle-earth, the city was enriched in numbers, smithing, crafting, and masonry. These factors ever strengthened Khazad-dûm and brought prosperity to their city.</p>
+                                    <p>With the fall of Beleriand in the north, the Ñoldor looked for a new land to call home. They founded the land west of Moria, Eregion. A rare friendship sprang up between the Elves and the Dwarves of this new land, and they each aided each other in constructing the magical Western-gate of Moria, and went so far that they even presented King Durin lll with a lesser Ring of Power. The bond between Khazad-dûm and Eregion suddenly came to end as, in SA 1697, the Dark Lord Sauron corrupted the country of the elves, and despite the best efforts of the Dwarves to help them, he succeeded in destroying the fair land driving away all the elves. At this time the Doors of Durin were flung shut and sealed against Sauron's forces, and Khazad-dûm began a long seclusion from the outside world. It was at this time that the Orcs invaded Mount Gundabad, taking it from the Kingdom of Durin for themselves.</p>
+                                    <p>Their seclusion was broken for a time at the beginning of the War of the Last Alliance. Led by Durin IV, the Dwarves fought alongside the Elves and Men in their campaign to defeat Sauron for the last time. Winning the battle, the Dwarves returned to their long seclusion from the world inside Moria.</p>
+                                    <h4>Third AgeEdit</h4>
+                                    Balrog - FOT
+                                    Balrog, Durin's Bane
+                                    <p>Throughout the beginning of the Third Age, the Dwarves of Khazad-dûm expanded its treasure, but its numbers began to dwindle. The majority of their wealth was based on their hoards of Mithril of which they mined in their deepest tunnels, and as the centuries went by the Dwarves delved ever deeper for the precious metal.</p>
+                                    <p>In TA 1980, they dug too deeply and greedily for Mithril and to their loss they unearthed a nameless terror in the depths beneath the city. This dreadful creature wrought destruction throughout the city wiping out most of the Dwarves and slaying King Durin VI. Thereafter the creature was named Durin's Bane. After the Dwarves had left, Khazad-dûm gathered dust and stood dark and empty, but for the evil creature that lurked in the depths. This was when it was named Moria, the Black Pit.</p>
+                                    <p>The monster, later revealed as a Balrog of Morgoth, remained alone in Moria for nearly five centuries until it was populated once again, but not by Dwarves. The Orcs, refugees from the north, began to raid the abandoned city of its treasures and made a decision to occupy it. They came upon the Balrog and began to worship it as their deity. Mordor started to send out troops of Orcs and Cave Trolls to populate Moria, making an evil place for them to multiply. During the Battle of Azanulbizar, many of these Orcs were felled in the valley beneath the eastern gate of Moria in TA 2799, and the numbers were reduced dramatically. But the Balrog still remained and many Orcs and Trolls with him, and so Khazad-dûm stayed evil for the time being.</p>
+                                    <p>The wizard Gandalf entered the city for the first time at some point between TA 2845 and TA 2950 searching for King Thrain ll, who had recently disappeared on a journey to Lonely Mountain.</p>
+                                    <h5>Balin's ExpeditionEdit</h5>
+                                    Durin's grav
+                                    Chamber of Mazarbul, Balin's Tomb
+                                    <p>In TA 2989, the Longbeards, the descendants of the ancient Durin's Folk then living at the Lonely Mountain, started an attempt to reclaim and recolonise their ancestral dwelling - Khazad-dûm. The expedition was led by Balin son of Fundin, one of Thorin Oakenshield's Company of Dwarves who had accompanied Bilbo Baggins on the Quest of Erebor. He led a group of Dwarves from Lonely Mountain to Moria, and was successful in killing a considerable amount of Orcs, taking many of the eastern halls and recovering priceless ancestral treasures such as Durin's Axe. However, the number of Orcs was too great compared to their small company and all, including Balin, were slain in TA 2994.</p>
+                                    <h5>Quest of the Ring.Edit</h5>
+                                    Dwarrowdelf LoTR
+                                    The Fellowship passing through the great halls of stone.
+                                    <p>When the Hobbits Frodo, Sam, Merry and Pippin; the Men Aragorn and Boromir; the Dwarf Gimli; the Elf Legolas; and the Wizard Gandalf set out from Rivendell on the Quest of the Ring, they were forced to make their way through Moria after the failed attempt of climbing Caradhras (Redhorn) where they were pursued by Wargs. They entered through the western-gate near a lake with dark waters from which a tentacular monster emerged and attempted to kill Frodo. When inside, the Fellowship passed through many tunnels and great halls until finally reaching the Chamber of Mazarbul. It was here that they came across Balin's Tomb and a book, explaining the last accounts of the Longbeards.[5]</p>
+                                    <p>They were then taken by surprise as Orcs and cave trolls pursued them through Moria to the Bridge of Khazad-dûm where the Balrog rose from the depths. Gandalf bravely confronted the creature saving his friends' lives as they carried on out of Moria into Dimrill Dale. Gandalf led the Balrog up the Endless Stair to the peak of Celebdil where a final battle took place. Gandalf destroyed the Balrog and cast it down the side of the mountain, before succumbing to the wounds of his battle.</p>
+                                    <h4>Fourth Age and beyond</h4>
+                                    Eventually, Moria was reclaimed by the Dwarves of Durin's Folk under Durin VII who became King of Durin's Folk and of Khazad-dûm and lived there ever after.
+                                    <h3>Etymology</h3>
+                                    <p>Moria means "black chasm"' in Sindarin. Khazad-dûm means "Delving of the Dwarves" in Dwarvish.</p>
+                                    <p>Other names</p>
+                                    <ul>
+                                        <li>Dwarrowdelf</li>
+                                        <li>Hadhodrond</li>
+                                        <li>Halls of Durin</li>
+                                        <li>Mines of Moria</li>
+                                        <li>Phurunargian</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </section><!-- /Moria -->
+
+                        <section id="21-text" class="inactive">
+                            <h2 class="title">Osgiliath</h2>
+                            <div class="section-content">
+                                <div class="col-sm-12 col-md-12 col-lg-12">
+                                    <p>Osgiliath was the ancient capital of the Kingdom of Gondor. Depopulated during the Third Age, it gradually fell into ruin. During the War of the Ring, the abandoned city gained strategic importance as a crossing point over the Anduin, for Men and also Orcs of Mordor.</p>
+                                    <h3>History</h3>
+                                    <h4>Second Age</h4>
+                                    <h5>Rise and Decline</h5>
+                                    Osgiliath reclaimed
+                                    City of Osgiliath
+                                    <p>The city was founded by Isildur and Anárion near the end of the Second Age. Ruling Gondor jointly, they used Osgiliath as their capital. It was defended by two smaller fortress cities, Minas Ithil (where Isildur lived) and Minas Anor (where Anárion lived). Osgiliath soon became a large and flourishing city.</p>
+                                    <p>At the heart of Osgiliath was a great stone bridge over the river. On the bridge was a tower containing the famous Dome of Stars, which housed the city's Palantír. Another important building (or possibly the same one) was the Great Hall, which initially served as a throne room for Isildur and Anárion.</p>
+                                    <p>In SA 3429, Sauron attacked Gondor, beginning the War of the Last Alliance. Though he took Minas Ithil, Anárion successfully defended Osgiliath.</p>
+                                    <p>For over a thousand years, Osgiliath remained the greatest city in Gondor, though from the 5th century of the Third Age, the kings, beginning with Ostoher, used Minas Anor as a summer residence.</p>
+                                    Screen shot 2010-12-15 at 8.16.39 PM
+                                    Osgiliath Buildings
+                                    <p>Osgiliath was hit hard by the catastrophic civil war of the Kin-strife. In TA 1437, the city, then held by Eldacar, was besieged by Castamir's forces. During the fighting, fire broke out, and large parts of the city were destroyed, including the Dome of Stars. The Palantír housed in the Dome was lost in the river.</p>
+                                    <p>The decline of the city was greatly accelerated by the Great Plague of TA 1636. Many of its people died from the disease, while others fled to remote parts of the country, few of whom returned. Severely depopulated, Osgiliath began to fall into ruin. In 1640, Tarondor, whose predecessor Telemnar had died from the plague, moved the capital permanently to Minas Anor.</p>
+                                    <p>In TA 2000, Minas Ithil was besieged by the Nazgûl, who captured it two years later. Osgiliath, by this time mostly ruined and deserted, became a no man's land between its two former fortresses, now called Minas Morgul and Minas Tirith and at war with each other, and was haunted by ghosts.</p>
+                                    <p>The final blow came in TA 2475, when Uruks of Mordor overran Ithilien and captured Osgiliath. Though they were thrown back by Boromir, son of the then-Steward Denethor I, Osgiliath was finally ruined and abandoned, and its great bridge was broken.</p>
+                                    <h4>Third Age</h4>
+                                    <h5>War of the Ring</h5>
+                                    Boromir speech
+                                    Boromir's speech to the populace after the defense of the city keeping the western shore in TA 3018.
+                                    <p>In TA 3019, Beregond recounted to Pippin how Gondor recaptured East Osgiliath a few decades before the War of the Ring, for use as a military outpost and to secure a crossing of the Anduin. In June 3018, however, a detachment of Sauron's forces, led by a Nazgûl, again took the east bank, and the defenders, led by Boromir and Faramir, were forced to retreat, destroying the bridge they had built.</p>
+                                    Boromir in Osgiliath
+                                    Boromir's victory in Osgiliath.
+                                    <p>Osgiliath was one of the few places between Rauros and the sea where large armies could cross the Anduin without needing many boats. Thus, a key part of Gondor's defensive strategy after the loss of East Osgiliath was to hold West Osgiliath and oppose any attempt at crossing the river. It was while he was on guard in West Osgiliath in February 3019 that Faramir saw Boromir's funeral boat. But when the Witch-king and his armies attacked Gondor in March 3019, it was revealed that Sauron's forces had secretly built many floats and barges in East Osgiliath. Though they met with determined opposition from Faramir and the Osgiliath garrison, they were able to cross with fewer casualties than the defenders had hoped, and Faramir ordered a general retreat to the Rammas Echor. When he led the bulk of his army to besiege Minas Tirith, the Witch-king left some reserves in Osgiliath. Gothmog later deployed these forces against Gondor and their allies in the Battle of the Pelennor Fields.</p>
+                                    <h4>Fourth Age and Beyond</h4>
+                                    <p>After Sauron was defeated and the Fourth Age began, Aragorn II Elessar, the new King of Gondor, may have rebuilt the city, but he kept Minas Tirith as his capital. He rebuilt the ruined northern city of Annúminas and proclaimed it capital of his Northern kingdom.</p>
+                                    <h3>Etymology</h3>
+                                    <p>Osgiliath in Sindarin means "Citadel of the Host of Stars": from ost ("city, town") and giliath ("host of stars").</p>
+                                </div>
+                            </div>
+                        </section><!-- /Osgiliath -->
+
+                        <section id="22-text" class="inactive">
+                            <h2 class="title">Rivendell</h2>
+                            <div class="section-content">
+                                <div class="col-sm-12 col-md-12 col-lg-12">
+                                    <p>Rivendell, also known as Imladris, was an Elven outpost in Middle-earth. It is also referred to as "The Last Homely House East of the Sea", a reference to Valinor, which is west of the Great Sea in Aman.</p>
+                                    <h3>History</h3>
+                                    <h4>Second Age</h4>
+                                    <p>Rivendell was established by Elrond in the Second Age of Middle-earth in SA 1697. Following the establishment of the Last Alliance of Elves and Men, the hosts of Gil-galad and Elendil march to Rivendell and proceed westwards to Dagorlad.</p>
+                                    <h4>Third Age</h4>
+                                    <p>In the Third Age, the heirs of Isildur were fostered in Rivendell and the heirlooms were kept by Elrond.</p>
+                                    <h4>Quest for Erebor</h4>
+                                    <p>During the Quest for the Lonely Mountain, Bilbo Baggins and the Company of Thorin stopped off at Rivendell. Bilbo described it as "a perfect house, whether you like food or sleep or story-telling or singing, or just sitting and thinking best, or a pleasant mixture of them all." After the quest, Bilbo and Gandalf returned there and were greeted again by the elves.</p>
+                                    <h4>War of the Ring</h4>
+                                    <p>Years later, Frodo Baggins and his Hobbit companions journeyed to Rivendell, where they met with Bilbo, who had retired there after his eleventy-first birthday. Several other Elves, Dwarves and Men also arrived at Rivendell on separate errands;[4] at the Council of Elrond they learnt that all of their errands are related to the fate of the One Ring, and they must decide what to do about it. In the end, it was the Hobbits who influenced the decision.</p>
+                                    <p>There was a large hall with a dais and several tables for feasting. Another hall, the Hall of Fire, had a fire in it all year round with carven pillars on either side of the hearth; it was used for singing and story telling on high days but stood empty the rest of the time so people could go there to quietly think. The eastern side of the house had a porch where Frodo Baggins found his friends once he awakened and where the Council of Elrond was held.</p>
+                                    <p>Rivendell was protected from attack (mainly by the River Bruinen, Elrond, and Elven magic), but Elrond himself said that Rivendell is a place of peace and learning, not a stronghold of battle. There were a few assaults on Rivendell in various video games, and they were either failures or successes depending on whether Sauron found the Ring.</p>
+                                    <p>After the War and of Elrond's departure, his sons Elladan and Elrohir lived in Rivendell. Their grandfather Celeborn lived with them for a while until he finally took ship and sailed West.</p>
+                                    <h3>Etymology</h3>
+                                    <p>Imladris is a Sindarin term which means "deep valley of the cleft": from imlad ("glen, deep valley") and rist ("cleft") or riss ("ravine"). Its Westron term Rivendell comes from the English riven ("to tear apart or split") and dell ("valley").</p>
+                                </div>
+                            </div>
+                        </section><!-- /Rivendell -->
+
+                        <section id="23-text" class="inactive">
+                            <h2 class="title">Rohan</h2>
+                            <div class="section-content">
+                                <div class="col-sm-12 col-md-12 col-lg-12">
+                                    <p>Rohan, originally named Rochand or Rochann, was a kingdom of Men, located in the land once called Calenardhon, situated in the great vale between the Misty Mountains and the White Mountains to the south. The land of Rohan extended from the fords of the river Isen in the west, up to the shores of Anduin the great in the east. The forest of Fangorn lay within the borders of Rohan, and Lorien lay to the north of the river Limlight. The land was known as Rohan to the Men of Gondor, and its people the Rohirrim, meaning 'the Horse-lords', but the people of Rohan called themselves the Eorlingas, sons of Eorl the Young, first King of Rohan, as the land of Calenardhon was given in gift to Eorl and his people by Cirion, Steward of Gondor, in thanks for their service to Gondor in battle against the Balchoth. Eorl, the first king, swore an oath of friendship, at need or at call, to the Lords of Gondor, and thus the Rohirrim became the greatest allies of the Men of Gondor throughout the Third Age and beyond. They were known for their cavalry and horse training, which came into use countless times in battles such as Hornburg and on the Pelennor Fields.</p>
+                                    <h3>History</h3>
+                                    <h4>Descent from the Northmen</h4>
+                                    <p>In the 1200s of the Third Age, the Kings of Gondor made alliances with the Northmen of Rhovanion, a people thought to be distantly descended from the Edain; those peoples of Men who crossed into Beleriand in the First Age and later settled in Númenor. The men who would become the Rohirrim were in fact more closely akin to the Beornings and the Men of Dale, and are accounted as Middle Men, who while not directly descended from the Men of Númenor, never served the will of Sauron. In "The Two Towers", Aragorn describes the Rohirrim thusly:</p>
+                                    <p>“Their kinship is rather with the Beornings of the Wood, or the Bardings of Dale, among whom may still be seen many Men tall and far, as are the Rohirrim...They are proud and willful, but they are true-hearted, generous in thought and deed; bold but not cruel; wise but unlearned, writing no books but singing many songs, after the manner of the children of Men before the Dark Years”</p>
+                                    <p>–pg. 41, The Two Towers</p>
+                                    <p>In the early part of the Third Age, such men occupied a territory known as Rhovanion, the lands east of Mirkwood, Greenwood the Great, west of the inland Sea of Rhûn, and south of the Celduin (the River Running). While never united under one singular king, the Men of Rhovanion nonetheless were allies of Gondor, and many of the great Princes of Rhovanion and their kin served in the armies of Gondor. In this way was the ruling House of Gondor mingled with the Northmen during the reign of King Eldacar, and the Northmen intermarried with the Dúnedain of the South and were eventually reckoned Men of Gondor. Through nearly constant conflict with the Men of Rhûn (Balchoth, Wainriders, and the like), the population of Rhovanion dwindled.</p>
+                                    <p>In the late 1000s of the Third Age, one such population of Northmen, dwelling in the eaves of Mirkwood, became a separate people under the lordship of Marhari, a descendant of Vidugavia, one of the most powerful princes of Rhovanion. Fighting alongside King Narmacil II of Gondor, his people were defeated by the Wainriders, invaders from the east, and the last remnants of the Northmen were scattered. Marhwini, son of Marhari, took up the lordship of his father and, retreating north with a remnant of his people, became the first chieftain of the people who would become the Rohirrim. Settling first in the vales of Anduin between the Carrock and Gladden Fields, his people began to slowly recover their strength, and became known as the Éothéod, the horse peoples. Marhwini, and later his son Forthwini, continued their alliance with Gondor, fighting the Wainriders and other eastern invaders alongside Kings Calimehtar and Ondoher. Although the Eotheod won pyrrhic victories over their foes while allied to Gondor, and reconquered the lands once held by Lords of Rhovanion, their settlements remained near the Anduin.</p>
+                                    <h4>The Éothéod</h4>
+                                    <p>In the 1970s of the Third Age, after the downfall of the Witch-king and his Kingdom of Angmar, their need for larger lands and the growing menace of Dol Guldur, forced Frumagar (called Frungor in some texts), chieftain of the Éothéod, to lead his people north along the eastern banks of Anduin. They settled near the sources of Anduin, south of the Grey Mountains. Their chief city became Framsburg, which lay in a vale between the rivers Limlight and Greylin. During their time in the far north, the Éothéod and their horses multiplied, and they drove the last remnants of the Hillmen of Angmar out of their lands. Fram, son of Frumagar, slew the dragon Scatha, last of the Great Worms of the Grey Mountains, save Smaug of the Lonely Mountain; thus he won great wealth from the horde of Scatha, as well as renown for the deed. He also earned the hatred of the Dwarves of that region, for they claimed the treasure of Scatha. Fram infuriated the Dwarves by sending them the teeth of Scatha, strung as a necklace, and denying them the rest of the horde. Some say that for this reason the Dwarves slew Fram, for whom the city of Framsburg was named; for that reason there was no great love between the Rohirrim and Dwarves.</p>
+                                    <p>Five hundred years of relative prosperity followed for the Éothéod in the north, and they multiplied into a numerous people, with many farms and horses. In 2501, Léod, chieftain of the Éothéod, captured a white foal in the wilds; this foal would grow to great stature, but remain wild and was not tamed by any man. When Léod decided to mount the horse, it bore him away from his stables and eventually threw him, whereupon Leod's head struck a rock, killing him. Eorl, son of Léod, despite being just 16 years of age, took up the lordship of the Éothéod, and made it a mission to find the horse that had killed his father. Finally, he tracked down and confronted the stallion, but rather than slay him, Eorl commanded that the horse give up his freedom as a weregild for the killing of Léod. This horse understood the speech of men, and submitted to Eorl, and was named anew Felarof.</p>
+                                    <h4>The Gift of Calenardhon and the Oath of Eorl</h4>
+                                    <p>In the year TA 2509, Eorl received summons from Cirion, Steward of Gondor. The Steward pleaded for help from Gondor's old allies; as a combined force of Easterlings had invaded the province of Calenardhon and was nigh upon invading the rest of the South Kingdom. Therefore, Eorl surprised even the errand-rider of Gondor by agreeing to come to the aid of Cirion. Though young, Eorl wisely perceived that if Gondor should fall, all the lesser realms of men west of Anduin would eventually fall under the dominion of Sauron. He gathered all men of the Éothéod that could possibly be spared, and, leaving his land at risk of invasion itself, rode south to the aid of Gondor. Despite a prejudice against the Elves that would carry up until the time of the War of the Ring, a protective mist seemed to come out of Lothlórien as the Éothéod journeyed south, rejuvenating horse and rider and shielding their approach from their enemies. Believing that there would be no time for the Éothéod to help his armies, Cirion nonetheless met them in battle on the field of Celebrant, though Gondor's legions were worsted. All hope seemed lost when an army of Orcs came upon the flank of the army of Gondor, but at that moment Eorl and his cavalry thundered out of the north unlooked for and, smashing the rear of the orc battalions, completely reversed the fortunes of battle. Gondor's army was saved from destruction, and the riders of the Éothéod continued to pursue their enemies in a great rout across the eastern plains.</p>
+                                    <p>Cirion committed the guardianship of Calenardhon to Eorl and his men for three months, during which time the Steward took council to determine what reward he could present to the Éothéod for their heroic arrival on the Field of Celebrant. At the end of the three months, he rode north to Calenardhon with his son Hallas and his counsellors, and led Eorl and some of his guard to the hidden tomb of Elendil upon Amon Anwar (Hill of Awe), which was later renamed Halifirien (the Holy Mountain) in Rohirric. Cirion realised that the Éothéod as a people needed more room to flourish, and that they would make for a strong ally to Gondor against the growing threat of Sauron and the continued harassment of the Easterlings. Therefore, upon Amon Anwar he told Eorl that in reward for their aid in battle, he would grant the land of Calenardhon to the Éothéod to dwell in. Eorl was so impressed and grateful for Cirion's gift that he swore to the Steward the 'Oath of Eorl', of everlasting friendship to Gondor, and aid to the South Kingdom in war against the East. Eorl thus became the first King of Rohan, and his army sent north for their wives and kin. Coming into the land of Calenardhon the Éothéod were named anew the Rohirrim in Gondor, and named their new realm the Mark of the Riders, and themselves the Eorlingas.</p>
+
+                                    King of rohan
+                                    Théoden, the King of Rohan
+                                    <h4>The Kingdom of RohanEdit</h4>
+                                    Golden Hall of Meduseld
+                                    Golden hall of Meduseld, where Eowyn is standing.
+                                    <p>Eorl was succeeded upon his death in battle by his son Brego. Brego it was who completed the great hall of Meduseld, which became the home of the Kings of Rohan thereafter. Brego's first son Baldor made a vow to tread the Paths of the Dead at the celebration to commemorate the completion of Meduseld, but was lost in the caverns beneath Dwimorberg. Brego was grieved at the loss of his son and died soon after, leaving rule of Rohan to his younger son Aldor. Aldor was called 'the Old', for, coming young to the throne, he ruled the Mark for 75 years.</p>
+                                    <p>Of the Kings between Aldor and the 7th king Déor, little is said, but during the time of Déor, the Dunlendings, lesser Men who once dwelt in the mountains and vales but whom the Rohirrim drove west over Isen upon entering Calenardhon, began again to raid the western borders of the Mark. In 2710, the Dunlendings captured the mostly-deserted fortress of Isengard, and held it in defiance of the Rohirrim.</p>
+                                    <p>The Dunlendings continued their harassment of Rohan through the time of Helm Hammerhand, 9th king of Rohan. Helm was a man of great stature and strength, and a strong king who wished to again subdue the Dunlendings. One particularly troublesome Dunlending was named Freca; though he claimed descent from the fifth king Fréawine, Freca was mostly of Dunlendish blood. Nonetheless, he held a good amount of land on the Adorn river, and had there made himself a stronghold where he largely ignored the rule of Helm. On a time, Freca came to Helm's counsel at Edoras, and there suggested that the King allow his daughter to wed with Wulf, son of Freca. Helm, seeing this as nothing but a ploy to bring Freca's heir close to the kingly House and thus increase the potential for Rohan to fall into Dunlending hands, mocked Freca. Freca then insulted the king, and eventually Helm smote him a blow with his fist, killing him. Then Helm sent his men west to drive away Wulf and his followers, declaring them enemies of Rohan.</p>
+                                    Helms deep
+                                    The fortress of Helms Deep.
+                                    <p>By ill chance, these events were followed by an attack upon Gondor by the Corsairs. Seeing the opportunity to attack Rohan while its allies were beset by other foes, Wulf led a strong force of the Dunlendings out of Isengard and defeated Helm's army, driving the king and many of his people to the fortress of the Hornburg, which was later known as Helm's Deep. Wulf captured Meduseld, and Helm's son Haleth was slain in its defense. Wulf sat upon the throne and called himself king and the Long Winter began, during which many of the people of Rohan perished from sickness and hunger and battle with the Dunlendings. Helm, besieged inside the Hornburg, became gaunt and grim, and eventually began to venture from the fort at night, stalking the camps of the Dunlendings and killing men with his bare hands. Before he would come forth in the dark, Helm would blow a blast upon his great horn, which struck fear into his enemies, and they fled upon hearing it (this was the Horn of Helm's Deep in the Lord of the Rings). In this way, Helm won renown, and was much feared for many generations after by the Dunlendings, but one night he froze to death outside the walls of the Hornburg, and the royal house fell into shambles.</p>
+                                    Rohan
+                                    Terrain of Rohan
+                                    <p>With the onset of spring, Helm's nephew Fréaláf Hildeson led a small army down from Dunharrow, where another remnant of the Rohirrim had lasted out the winter. Coming upon Edoras unawares, they slew Wulf and reclaimed Meduseld. Helm's body was brought back from the Hornburg and buried in the last mound of the first line of the Kings of Rohan, and the white Simbelmyne grew so thick upon his mound that it appeared snow-capped. Fréaláf successfully drove out the remaining Dunlendings before the year was ended, finally receiving aid from Gondor, which had defeated the Corsairs, and Fréaláf became King. To his crowning came Saruman the White, bearing gifts and praising the Rohirrim for their courage. He took up his abode at Isengard in 2759, a gift from Beren, Steward of Gondor. Fréaláf was content to have such a strong ally in the west against the Dunlendings as Saruman, as the Rohirrim had suffered great loss of men and horses during the hard winter. Eventually, though, as is explained elsewhere, Saruman became an enemy of Rohan and deigned to rule from Isengard as a lord of Men.</p>
+                                    <p>Fréaláf's son was Brýtta Léofa, a beloved king who stabilized Rohan once again, and the people began to prosper. In his time, however, orcs fleeing the Misty Mountains after the Battle of Azanulbizar in TA 2799 began to take refuge in the foothills of the White Mountains. Brytta's son Walda reigned for just nine years before he was killed by a group of Orcs. Folca, son of Walda, was a great hunter, and took a vow upon becoming king that he would not hunt beasts again until every orc had been driven out of Rohan. After destroying what was held to be the last orc-hold in Rohan, he journeyed to the Firien wood, to kill the Great Boar that lived there. He slew the boar, but died of the wounds he received in the act of killing it. The reign of Folcwine, son of Folca, saw a return to prosperity for Rohan, as he subdued the lands around the river Isen, and drove out the Dunlendings. In his reign, the Rohirrim recovered from their losses in the war against Wulf. He also came to the aid of Gondor when a great army of the Haradrim came up against the South Kingdom. Persuaded not to go to battle himself, Folcwine sent instead his twin sons, Folcred and Fastred. Although the combined armies of Rohan and Gondor won a great victory at the Battle of the Crossings of Poros on the banks of the River Poros in South Ithilien, the sons of King Folwine fell side by side in battle. Steward Túrin II of Gondor therefore paid a rich weregild of gold to Folcwine for his sacrifice.</p>
+                                    <p>Folcwine's third son, Fengel, is not remembered with honor. He did little to further strengthen Rohan, and was at odds with both his Marshalls and his kin. His only son, Thengel, therefore spent much time in Gondor, and won praise through his service to Steward Turgon. He married Morwen of Lossarnach, and began to raise a family in Gondor. Eventually, when Fengel died, Thengel returned to Rohan to take up the kingship. While Thengel was wise and restored dignity to the House of Eorl, he did create some discord by encouraging the use of the language of Gondor in Edoras. At the time of Thengel's return to Rohan, Saruman first began to openly trouble the Rohirrim, and he declared himself Lord of Isengard. Also during Thengel's reign, the captain Thorongil (later revealed to be Aragorn II Elessar) first appeared in Rohan, and entered the service of the king, and was renowned. Thengel's son was Théoden the Renowned.</p>
+                                </div>
+                            </div>
+                        </section><!-- /Rohan -->
+
+                        <section id="24-text" class="inactive">
+                            <h2 class="title">The Halls of Thranduil</h2>
+                            <div class="section-content">
+                                <div class="col-sm-12 col-md-12 col-lg-12">
+                                    <p>The Halls of Thranduil are great Elven Halls in northern Mirkwood, near the Mountains of Mirkwood.</p>
+                                    <h3>History</h3>
+                                    <p>It is not known how old the cave system is but it may be older than Oropher's time. After his death, the realm came under the rule of his son Thranduil who would rule from then on. As the forest became dark and dangerous the halls became secretive and well protected dwellings.</p>
+                                    <p>In TA 2941, Thorin and the dwarves were imprisoned here in the underground cells.</p>
+                                </div>
+                            </div>
+                        </section><!-- /The Halls of Thranduil -->
+
+                        <section id="25-text" class="inactive">
+                            <h2 class="title">The Shire</h2>
+                            <div class="section-content">
+                                <div class="col-sm-12 col-md-12 col-lg-12">
+                                    <p>The Shire was the homeland of the Hobbits. It was located in the northwest of Middle-earth, in the region of Eriador and within the Kingdom of Arnor, that is, while the kingdom existed. By the Third Age it was one of the few heavily-populated areas left in Eriador. Its name in Westron was Sûza "Shire" or Sûzat "The Shire". Contrary to popular misconception, The Shire was not the birthplace of Frodo Baggins.</p>
+                                    <h3>History</h3>
+                                    <h4>Settlement</h4>
+                                    <p>The Shire was settled by Hobbits in the year TA 1601 (Year 1 in Shire Reckoning). The Hobbits (who originally lived in the vale of Anduin) had migrated west over the Misty Mountains in the decades before, and before entering The Shire they had lived in Dunland and parts of the depopulated Arnor splinter-realms Cardolan and Rhudaur. It has been speculated that the Hobbits had originally moved west to escape the evils of Mirkwood, and the trouble caused by the Easterlings.</p>
+                                    <p>The Shire was a part of Arthedain, and as such a part of Arnor. The Hobbits were granted official permission from King Argeleb II at Norbury (Fornost) to settle the Shire, which was not populated at the time, and seen as the King's hunting grounds. The Hobbits considered themselves to be subjects of the King, and sent some support troops to the great battles Arnor fought against Witch-king of Angmar. Tales claim that some Hobbit bowmen were involved at the Battle of Fornost, although no tales of it exist in Men records. After the fall of Arnor, the Shire remained a small but independent entity.</p>
+                                    <h4>Third Age and beyond</h4>
+                                    <p>This peaceful situation changed after Bilbo Baggins' acquisition of the One Ring in the year SR 1343 of the Shire Reckoning. Shortly after the first events that led to the War of the Ring (autumn of the year 1419 in Shire Reckoning), the Shire was first visited by the Nine Ringwraiths who went as far as Hobbiton, and then captured by Saruman. It was liberated with the help of Frodo, Sam, Merry and Pippin after the end of the Quest of the Ring. After Aragorn's return as the King of Arnor and Gondor, the Shire became a protected enclave inside the Reunited Kingdom. He is known to have issued an order that forbade the entrance of full-sized Men into the Shire.</p>
+                                </div>
+                            </div>
+                        </section><!-- /The Shire -->
+
+                    </div><!-- /.content -->
+                </div><!-- /.content-wrapper -->
+            </div><!-- /.row -->
+
+    	</div><!-- /#main-wrapper -->
+
+        <div id="preloader">
+            <div id="status">&nbsp;</div>
+        </div><!-- /#preloader -->
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/jquery.backstretch.min.js"></script>
+        <script src="js/main.js"></script>
+        <!--
+        Based on the Nature Template
+        http://www.templatemo.com/preview/templatemo_398_nature
+        -->
+    </body>
+</html>
